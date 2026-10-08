@@ -2,6 +2,12 @@
 
 A black and ruby-red glass theme for **KDE Plasma 6**: translucent windows, smooth animations, a complete crimson icon pack, and a matching desktop, login, splash, and boot experience.
 
+[Browse the screenshot gallery](screenshots/README.md) — 14 desktop/component captures and previews, with captions.
+
+![Crimson Glass desktop and monitoring widgets](screenshots/desktop.png)
+
+*Desktop capture from the theme build. See the gallery for the corrected icon pack and component details.*
+
 **[Download the complete installer ZIP](https://github.com/SirFork1988/Crimson-Glass/releases/latest)**
 
 The release ZIP contains all theme assets, source artwork, licenses, and installation files. Download `Crimson-Glass-1.0.0.zip` from the release assets. GitHub’s automatic **Source code** archives contain this repository’s reference code and documentation, without the theme asset bundle.
