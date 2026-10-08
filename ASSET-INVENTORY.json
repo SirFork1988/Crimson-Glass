@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "icon_names": 25987,
+  "original_app_artworks": 28,
+  "assets": {
+    "regular_files": 52245,
+    "symlinks": 145313,
+    "directories": 497,
+    "uncompressed_file_bytes": 132200136,
+    "compressed_archive_bytes": 30190868
+  }
+}

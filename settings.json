@@ -1,0 +1,301 @@
+{
+  "kdeglobals": {
+    "ColorEffects:Disabled": {
+      "ChangeSelectionColor": "",
+      "Color": "56,56,56",
+      "ColorAmount": "0",
+      "ColorEffect": "0",
+      "ContrastAmount": "0.65",
+      "ContrastEffect": "1",
+      "Enable": "",
+      "IntensityAmount": "0.1",
+      "IntensityEffect": "2"
+    },
+    "ColorEffects:Inactive": {
+      "ChangeSelectionColor": "true",
+      "Color": "112,111,110",
+      "ColorAmount": "0.025",
+      "ColorEffect": "2",
+      "ContrastAmount": "0.1",
+      "ContrastEffect": "2",
+      "Enable": "false",
+      "IntensityAmount": "0",
+      "IntensityEffect": "0"
+    },
+    "Colors:Button": {
+      "BackgroundAlternate": "173,56,73",
+      "BackgroundNormal": "38,36,44",
+      "DecorationFocus": "232,65,86",
+      "DecorationHover": "232,65,86",
+      "ForegroundActive": "232,65,86",
+      "ForegroundInactive": "153,151,164",
+      "ForegroundLink": "244,190,194",
+      "ForegroundNegative": "218,68,83",
+      "ForegroundNeutral": "246,116,0",
+      "ForegroundNormal": "238,237,242",
+      "ForegroundPositive": "39,174,96",
+      "ForegroundVisited": "201,126,146"
+    },
+    "Colors:Complementary": {
+      "BackgroundAlternate": "29,28,35",
+      "BackgroundNormal": "20,20,25",
+      "DecorationFocus": "232,65,86",
+      "DecorationHover": "232,65,86",
+      "ForegroundActive": "232,65,86",
+      "ForegroundInactive": "153,151,164",
+      "ForegroundLink": "244,190,194",
+      "ForegroundNegative": "218,68,83",
+      "ForegroundNeutral": "246,116,0",
+      "ForegroundNormal": "238,237,242",
+      "ForegroundPositive": "39,174,96",
+      "ForegroundVisited": "201,126,146"
+    },
+    "Colors:Header": {
+      "BackgroundAlternate": "29,28,35",
+      "BackgroundNormal": "23,22,28",
+      "DecorationFocus": "232,65,86",
+      "DecorationHover": "232,65,86",
+      "ForegroundActive": "232,65,86",
+      "ForegroundInactive": "153,151,164",
+      "ForegroundLink": "244,190,194",
+      "ForegroundNegative": "218,68,83",
+      "ForegroundNeutral": "246,116,0",
+      "ForegroundNormal": "238,237,242",
+      "ForegroundPositive": "39,174,96",
+      "ForegroundVisited": "201,126,146"
+    },
+    "Colors:Header][Inactive": {
+      "BackgroundAlternate": "29,28,35",
+      "BackgroundNormal": "20,20,25",
+      "DecorationFocus": "232,65,86",
+      "DecorationHover": "232,65,86",
+      "ForegroundActive": "232,65,86",
+      "ForegroundInactive": "153,151,164",
+      "ForegroundLink": "255,111,130",
+      "ForegroundNegative": "218,68,83",
+      "ForegroundNeutral": "246,116,0",
+      "ForegroundNormal": "238,237,242",
+      "ForegroundPositive": "39,174,96",
+      "ForegroundVisited": "201,126,146"
+    },
+    "Colors:Selection": {
+      "BackgroundAlternate": "168,51,67",
+      "BackgroundNormal": "168,51,67",
+      "DecorationFocus": "232,65,86",
+      "DecorationHover": "232,65,86",
+      "ForegroundActive": "232,65,86",
+      "ForegroundInactive": "255,255,255",
+      "ForegroundLink": "244,190,194",
+      "ForegroundNegative": "176,55,69",
+      "ForegroundNeutral": "198,92,0",
+      "ForegroundNormal": "255,255,255",
+      "ForegroundPositive": "23,104,57",
+      "ForegroundVisited": "201,126,146"
+    },
+    "Colors:Tooltip": {
+      "BackgroundAlternate": "29,28,35",
+      "BackgroundNormal": "20,20,25",
+      "DecorationFocus": "232,65,86",
+      "DecorationHover": "232,65,86",
+      "ForegroundActive": "232,65,86",
+      "ForegroundInactive": "153,151,164",
+      "ForegroundLink": "244,190,194",
+      "ForegroundNegative": "218,68,83",
+      "ForegroundNeutral": "246,116,0",
+      "ForegroundNormal": "238,237,242",
+      "ForegroundPositive": "39,174,96",
+      "ForegroundVisited": "201,126,146"
+    },
+    "Colors:View": {
+      "BackgroundAlternate": "29,28,35",
+      "BackgroundNormal": "20,20,25",
+      "DecorationFocus": "232,65,86",
+      "DecorationHover": "232,65,86",
+      "ForegroundActive": "232,65,86",
+      "ForegroundInactive": "153,151,164",
+      "ForegroundLink": "244,190,194",
+      "ForegroundNegative": "218,68,83",
+      "ForegroundNeutral": "246,116,0",
+      "ForegroundNormal": "238,237,242",
+      "ForegroundPositive": "39,174,96",
+      "ForegroundVisited": "201,126,146"
+    },
+    "Colors:Window": {
+      "BackgroundAlternate": "29,28,35",
+      "BackgroundNormal": "20,20,25",
+      "DecorationFocus": "232,65,86",
+      "DecorationHover": "232,65,86",
+      "ForegroundActive": "232,65,86",
+      "ForegroundInactive": "153,151,164",
+      "ForegroundLink": "244,190,194",
+      "ForegroundNegative": "218,68,83",
+      "ForegroundNeutral": "246,116,0",
+      "ForegroundNormal": "238,237,242",
+      "ForegroundPositive": "39,174,96",
+      "ForegroundVisited": "201,126,146"
+    },
+    "WM": {
+      "activeBackground": "23,22,28",
+      "activeBlend": "252,252,252",
+      "activeForeground": "242,239,245",
+      "inactiveBackground": "20,20,25",
+      "inactiveBlend": "161,169,177",
+      "inactiveForeground": "147,142,156"
+    },
+    "General": {
+      "AccentColor": "232,65,86",
+      "accentColorFromWallpaper": "false",
+      "ColorScheme": "CrimsonGlass",
+      "font": "Noto Sans,10,-1,5,50,0,0,0,0,0",
+      "fixed": "Noto Sans Mono,11,-1,5,50,0,0,0,0,0",
+      "menuFont": "Noto Sans,10,-1,5,50,0,0,0,0,0",
+      "smallestReadableFont": "Noto Sans,8,-1,5,50,0,0,0,0,0",
+      "toolBarFont": "Noto Sans,10,-1,5,50,0,0,0,0,0"
+    },
+    "Icons": {
+      "Theme": "CrimsonGlass-Icons"
+    },
+    "KDE": {
+      "widgetStyle": "kvantum",
+      "AnimationDurationFactor": "0.8",
+      "LookAndFeelPackage": "org.crimsonglass.desktop"
+    }
+  },
+  "plasmarc": {
+    "Theme": {
+      "name": "CrimsonGlass"
+    }
+  },
+  "ksplashrc": {
+    "KSplash": {
+      "Theme": "org.crimsonglass.desktop",
+      "Engine": "KSplashQML"
+    }
+  },
+  "Kvantum/kvantum.kvconfig": {
+    "General": {
+      "theme": "CrimsonGlass"
+    },
+    "Applications": {
+      "CrimsonGlassDolphin": "dolphin"
+    }
+  },
+  "kcminputrc": {
+    "Mouse": {
+      "cursorTheme": "Qogir-Dark",
+      "cursorSize": "24"
+    }
+  },
+  "krunnerrc": {
+    "General": {
+      "FreeFloating": "true"
+    }
+  },
+  "kded5rc": {
+    "Module-appmenu": {
+      "autoload": "true"
+    }
+  },
+  "kded6rc": {
+    "Module-appmenu": {
+      "autoload": "true"
+    }
+  },
+  "kwinrc": {
+    "org.kde.kdecoration2": {
+      "library": "org.kde.kwin.aurorae.v2",
+      "theme": "__aurorae__svg__CrimsonGlass",
+      "ButtonsOnLeft": "XIA",
+      "ButtonsOnRight": "",
+      "BorderSize": "None"
+    },
+    "Plugins": {
+      "blurEnabled": "true",
+      "contrastEnabled": "true",
+      "magiclampEnabled": "true",
+      "translucencyEnabled": "true",
+      "slideEnabled": "true",
+      "overviewEnabled": "true",
+      "windowviewEnabled": "true",
+      "slidingpopupsEnabled": "true",
+      "fadingpopupsEnabled": "true",
+      "zoomEnabled": "true",
+      "windowapertureEnabled": "true",
+      "wobblywindowsEnabled": "false",
+      "diminactiveEnabled": "false",
+      "squashEnabled": "false",
+      "scaleEnabled": "false"
+    },
+    "Effect-blur": {
+      "BlurStrength": "8",
+      "NoiseStrength": "2"
+    },
+    "Effect-magiclamp": {
+      "AnimationDuration": "340"
+    },
+    "Effect-translucency": {
+      "MoveResize": "88",
+      "Dialogs": "96",
+      "Inactive": "97",
+      "ComboboxPopups": "94",
+      "Menus": "94"
+    },
+    "ElectricBorders": {
+      "TopLeft": "Overview",
+      "BottomRight": "ShowDesktop"
+    },
+    "Effect-overview": {
+      "BorderActivate": "7"
+    }
+  },
+  "dolphinrc": {
+    "General": {
+      "AlwaysShowTabBar": "true",
+      "BrowseThroughArchives": "true",
+      "OpenExternallyCalledFolderInNewTab": "true",
+      "ShowCloseButtonOnTabs": "true",
+      "ShowStatusBar": "1",
+      "ShowToolTips": "true",
+      "ShowZoomSlider": "true"
+    },
+    "IconsMode": {
+      "IconSize": "64",
+      "MaximumTextLines": "2",
+      "PreviewSize": "96",
+      "TextWidthIndex": "1"
+    },
+    "DetailsMode": {
+      "IconSize": "22"
+    },
+    "InformationPanel": {
+      "dateFormat": "1",
+      "previewsAutoPlay": "false",
+      "previewsShown": "true",
+      "showHovered": "true"
+    },
+    "PlacesPanel": {
+      "IconSize": "24"
+    },
+    "KFileDialog Settings": {
+      "Places Icons Auto-resize": "false",
+      "Places Icons Static Size": "24"
+    },
+    "MainWindow": {
+      "MenuBar": "Disabled"
+    },
+    "PreviewSettings": {
+      "Plugins": "appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,directorythumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,ffmpegthumbs,fontthumbnail,gsthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,mobithumbnail,opendocumentthumbnail,rawthumbnail,svgthumbnail,textthumbnail,windowsexethumbnail,windowsimagethumbnail"
+    }
+  },
+  "konsolerc": {
+    "Desktop Entry": {
+      "DefaultProfile": "CrimsonGlass.profile"
+    },
+    "UiSettings": {
+      "ColorScheme": "CrimsonGlass"
+    },
+    "General": {
+      "ConfigVersion": "1"
+    }
+  }
+}

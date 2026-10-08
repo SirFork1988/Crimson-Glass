@@ -1,0 +1,30 @@
+CRIMSON GLASS 1.0.0 — RELEASE VALIDATION
+
+Performed 2026-10-08 against the bundled release files.
+
+PASS: complete assets archive installation into a temporary home.
+PASS: second installation produces identical preferences without duplication.
+PASS: restore second snapshot, then restore original snapshot.
+PASS: all 145,098 installed icon symlinks round-trip and stay within the pack.
+PASS: unrelated browser, DPI, file history, bookmarks, mouse/touchpad settings,
+      file permissions and Dolphin view-property xattrs survive/restore.
+PASS: dry-run checks without creating a backup or writing theme preferences.
+PASS: 27 isolated archive/GTK/symlink/restore cases, including malformed paths,
+      external targets, cycles, devices, duplicate members and final links.
+PASS: 18 isolated system startup tests covering four rebuild backends,
+      failed-build rollback, later-edit guards, current-kernel restoration,
+      image inspection and Fedora rescue/orphan image exclusions.
+PASS: 6 mocked layout cases across 1280x720, 1920x1080 and 3440x1440, each
+      applied twice; two panels/five widgets, fitting geometry, generic apps.
+PASS: 11 mocked live-application cases covering fresh launcher registration,
+      repeated installation, cache readiness, root sensor resolution/fallback,
+      timeout handling and --no-layout.
+PASS: asset privacy, editable sources, notices and internal link audit.
+PASS: native Arch prerequisite names validated against enabled repositories.
+PASS: Python compilation and shell syntax checks.
+
+Host visual source: CachyOS, KDE Plasma 6.7.5, Qt 6.11.2, Kvantum 1.1.8.
+All installation/restore tests used temporary homes or system roots. No live
+desktop replacement, login-manager restart, initramfs rebuild or reboot was
+performed to create this release. Distro-wide live installs beyond this host
+have not been tested. See README.txt for compatibility and startup limits.

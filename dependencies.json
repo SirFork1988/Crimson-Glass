@@ -1,0 +1,172 @@
+{
+  "description": "Native packages downloaded by install.sh; alternatives are resolved against enabled repositories.",
+  "recipes": {
+    "arch": {
+      "required": [
+        "kvantum",
+        "kvantum-qt5",
+        "plasma-integration",
+        "plasma5-integration",
+        "breeze",
+        "breeze5",
+        "aurorae",
+        "qt6-5compat",
+        "kirigami-addons",
+        "kde-gtk-config",
+        "kdeplasma-addons",
+        "plasma-systemmonitor",
+        "dolphin",
+        "konsole",
+        "ark",
+        "kio-extras",
+        "ffmpegthumbs",
+        "kdegraphics-thumbnailers",
+        "qt6-svg",
+        "qt5-svg",
+        "qt6-tools",
+        "gtk3",
+        "gtk4",
+        "noto-fonts",
+        "appmenu-gtk-module",
+        "libdbusmenu-glib"
+      ],
+      "optional": [
+        "xsettingsd",
+        "gtk-engine-murrine"
+      ],
+      "login": [
+        "sddm",
+        "qt6-5compat",
+        "qt6-virtualkeyboard",
+        "kirigami",
+        "qqc2-desktop-style"
+      ],
+      "boot": [
+        "plymouth"
+      ]
+    },
+    "debian": {
+      "required": [
+        [
+          "qt-style-kvantum",
+          "qt6-style-kvantum"
+        ],
+        "plasma-integration",
+        "plasma5-integration",
+        [
+          "kwin-style-aurorae",
+          "kwin-common"
+        ],
+        "qml6-module-qt5compat-graphicaleffects",
+        "qml6-module-org-kde-kirigamiaddons-components",
+        [
+          "kde-style-breeze",
+          "breeze"
+        ],
+        "kde-style-breeze-qt5",
+        "kde-config-gtk-style",
+        "plasma-widgets-addons",
+        "plasma-systemmonitor",
+        "dolphin",
+        "konsole",
+        "ark",
+        "kio-extras",
+        "ffmpegthumbs",
+        "kdegraphics-thumbnailers",
+        "libqt6svg6",
+        [
+          "libqt5svg5",
+          "libqt5svg5t64"
+        ],
+        "qdbus-qt6",
+        [
+          "libgtk-3-0t64",
+          "libgtk-3-0"
+        ],
+        [
+          "libgtk-4-1",
+          "libgtk-4-1t64"
+        ],
+        "fonts-noto-core",
+        "fonts-noto-mono",
+        "appmenu-gtk3-module",
+        [
+          "libdbusmenu-glib4",
+          "libdbusmenu-glib4t64"
+        ]
+      ],
+      "optional": [
+        "xsettingsd",
+        "gtk2-engines-murrine",
+        "appmenu-gtk2-module"
+      ],
+      "login": [
+        "sddm",
+        "sddm-theme-breeze",
+        "qml6-module-qt5compat-graphicaleffects",
+        "qml6-module-qtquick-virtualkeyboard",
+        "qml6-module-org-kde-kirigami",
+        "qml6-module-org-kde-breeze",
+        "qml6-module-qtquick-controls",
+        "qml6-module-qtquick-layouts"
+      ],
+      "boot": [
+        "plymouth",
+        "plymouth-themes"
+      ]
+    },
+    "fedora": {
+      "required": [
+        [
+          "kvantum",
+          "kvantum-qt6"
+        ],
+        "kvantum-qt5",
+        "plasma-integration",
+        "plasma-integration-qt5",
+        "aurorae",
+        "qt6-qt5compat",
+        "kf6-kirigami-addons",
+        "plasma-breeze",
+        "plasma-breeze-qt5",
+        "kde-gtk-config",
+        "kdeplasma-addons",
+        "plasma-systemmonitor",
+        "dolphin",
+        "konsole",
+        "ark",
+        "kio-extras",
+        "ffmpegthumbs",
+        "kdegraphics-thumbnailers",
+        "qt6-qtsvg",
+        "qt5-qtsvg",
+        [
+          "qt6-qttools",
+          "qt6-qttools-tools"
+        ],
+        "gtk3",
+        "gtk4",
+        "google-noto-sans-fonts",
+        "google-noto-sans-mono-fonts"
+      ],
+      "optional": [
+        "xsettingsd",
+        "appmenu-gtk-module",
+        "libdbusmenu-gtk3",
+        "gtk-murrine-engine"
+      ],
+      "login": [
+        "sddm",
+        "sddm-breeze",
+        "qt6-qt5compat",
+        "qt6-qtvirtualkeyboard",
+        "kf6-kirigami",
+        "kf6-qqc2-desktop-style"
+      ],
+      "boot": [
+        "plymouth",
+        "plymouth-plugin-two-step"
+      ]
+    }
+  }
+}
