@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
-"""Crimson Glass 1.0.0: backed-up, portable KDE Plasma 6 theme installer."""
+"""Crimson Glass 1.1.0: backed-up, portable KDE Plasma 6 theme installer."""
 # SPDX-License-Identifier: MIT
 from __future__ import annotations
 import argparse, datetime, hashlib, json, os, re, shlex, shutil, subprocess, sys
 import tarfile, tempfile, time, uuid
 from pathlib import Path, PurePosixPath
-import dependencies
+import dependencies, runtime_install
 
 if sys.version_info < (3,10):
     raise SystemExit('Crimson Glass requires Python 3.10 or newer.')
 
 BASE=Path(__file__).resolve().parent
-VERSION='1.0.0'
+VERSION='1.1.0'
 
 def digest(path):
     h=hashlib.sha256()
@@ -147,7 +147,7 @@ class Home:
         return result
 
 def destinations(assets, settings):
-    items=set()
+    items=set(runtime_install.ITEMS)
     # Top-level theme directories are copied as units, preserving every alias.
     for p in (assets/'data').rglob('*'):
         rel=p.relative_to(assets/'data')
@@ -333,6 +333,8 @@ def main():
     p.add_argument('--all',action='store_true',help='Desktop plus SDDM login and Plymouth boot theme.')
     p.add_argument('--with-login',action='store_true',help='Install matching SDDM theme, using sudo.')
     p.add_argument('--with-boot',action='store_true',help='Install Plymouth theme and rebuild initramfs, using sudo.')
+    p.add_argument('--no-auto-align',action='store_true',help='Disable automatic widget repositioning after screen changes.')
+    p.add_argument('--no-game-opacity',action='store_true',help='Keep the previous global translucency effect instead of game exemptions.')
     p.add_argument('--no-layout',action='store_true',help='Keep your existing panels/widgets; apply visual themes.')
     p.add_argument('--skip-deps',action='store_true',help='Use prerequisites already installed by you.')
     p.add_argument('--dry-run',action='store_true',help='Verify files and show plans without changing anything.')
@@ -357,10 +359,14 @@ def main():
         if args.restore_system:
             if not meta.get('startup_backup'): raise RuntimeError('This install did not record a startup-theme backup.')
             system_call('restore',None,args,meta['startup_backup'])
+        if live: runtime_install.stop(sys.modules[__name__])
         mode=stop_shell() if live else None
         try: restore_files(home,backup)
         finally: start_shell(mode)
-        if live: run([qdbus(),'org.kde.KWin','/KWin','org.kde.KWin.reconfigure'],check=False)
+        if live:
+            run([qdbus(),'org.kde.KWin','/KWin','org.kde.KWin.reconfigure'],check=False)
+            if (home.config/'crimson-glass-runtime.json').exists() and (home.data/'crimson-glass/desktop_helper.py').exists():
+                runtime_install.start(sys.modules[__name__],home)
         print('Restored previous desktop files. Log out and back in to reload application themes. Distribution packages were kept.')
         return
     if not args.home: plasma_check(live)
@@ -395,7 +401,11 @@ def main():
                 'library':settings['kwinrc']['org.kde.kdecoration2']['library']}})
             for file,groups in settings.items(): ini_updates(home.config/file,groups)
             gtk_settings(home); configure_dolphin(home)
-            if live: live_apply(home,assets,not args.no_layout)
+            runtime_install.setup(sys.modules[__name__],home,auto_align=not (args.no_auto_align or args.no_layout or args.offline),games=not args.no_game_opacity)
+            if live:
+                runtime_install.stop(sys.modules[__name__])
+                live_apply(home,assets,not args.no_layout)
+                runtime_install.start(sys.modules[__name__],home,register=not args.no_layout)
             if args.with_login or args.with_boot:
                 report=system_call('install',assets,args)
                 meta['startup_backup']=report['backup']

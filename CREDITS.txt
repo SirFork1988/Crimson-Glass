@@ -1,4 +1,4 @@
-CRIMSON GLASS 1.0.0 — ASSET CREDITS AND SOURCE NOTICES
+CRIMSON GLASS 1.1.0 — ASSET CREDITS AND SOURCE NOTICES
 
 This package is an aggregate of independent theme components. Each retains
 its upstream license; the complete license notices are in licenses/ and in
@@ -83,3 +83,6 @@ The original copyright, license and no-warranty notices remain in force.
 Portable installer and restoration tools
   Original Crimson Glass integration code; MIT.
   See licenses/MIT-Crimson-Glass-Installer.txt.
+
+Screen alignment helper, game detection service, and KWin opacity script
+  Original Crimson Glass integration code; MIT, added 2026-10-09.

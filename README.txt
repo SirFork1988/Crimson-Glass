@@ -1,9 +1,9 @@
-CRIMSON GLASS 1.0.0
+CRIMSON GLASS 1.1.0
 Black, ruby red, glass and smooth motion for KDE Plasma 6
 
 QUICK INSTALL
-  1. Extract Crimson-Glass-1.0.0.zip.
-  2. Open a terminal inside the extracted Crimson-Glass-1.0.0 folder.
+  1. Extract Crimson-Glass-1.1.0.zip.
+  2. Open a terminal inside the extracted Crimson-Glass-1.1.0 folder.
   3. Run as your NORMAL desktop user:
        sh ./install.sh --all
   4. Log out and back in. Login and boot themes appear on the next login/boot.
@@ -147,7 +147,7 @@ VERIFICATION
   The installer checks manifest.json's SHA-256 hashes before dependency or
   desktop changes. The separate ZIP .sha256 file checks the download itself. From the
   download directory:
-    sha256sum -c Crimson-Glass-1.0.0.zip.sha256
+    sha256sum -c Crimson-Glass-1.1.0.zip.sha256
   The hashes detect damage; they are not a publisher signature.
 
   Release testing: isolated home install, second install, restores, config
@@ -155,3 +155,8 @@ VERIFICATION
   install/restore simulations for all three initramfs families, and repeated
   layout application with mocked Plasma at different screen sizes. Testing
   does not perform another live desktop install or reboot this computer.
+
+NEW IN 1.1.0
+Screen-aware widget realignment and game opacity exemptions. See README.md for
+behavior, opt-out flags, manual game classification, and restore instructions.
+Python D-Bus and GObject bindings are now native prerequisites.

@@ -1,8 +1,10 @@
 {
-  "description": "Native packages downloaded by install.sh; alternatives are resolved against enabled repositories.",
+  "description": "Native prerequisites; see dependency recipes.",
   "recipes": {
     "arch": {
       "required": [
+        "python-dbus",
+        "python-gobject",
         "kvantum",
         "kvantum-qt5",
         "plasma-integration",
@@ -47,6 +49,8 @@
     },
     "debian": {
       "required": [
+        "python3-dbus",
+        "python3-gi",
         [
           "qt-style-kvantum",
           "qt6-style-kvantum"
@@ -117,6 +121,8 @@
     },
     "fedora": {
       "required": [
+        "python3-dbus",
+        "python3-gobject",
         [
           "kvantum",
           "kvantum-qt6"

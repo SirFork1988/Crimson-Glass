@@ -10,11 +10,11 @@ A black and ruby-red glass theme for **KDE Plasma 6**: translucent windows, smoo
 
 **[Download the complete installer ZIP](https://github.com/SirFork1988/Crimson-Glass/releases/latest)**
 
-The release ZIP contains all theme assets, source artwork, licenses, and installation files. Download `Crimson-Glass-1.0.0.zip` from the release assets. GitHub’s automatic **Source code** archives contain this repository’s reference code and documentation, without the theme asset bundle.
+The release ZIP contains all theme assets, source artwork, licenses, and installation files. Download `Crimson-Glass-1.1.0.zip` from the release assets. GitHub’s automatic **Source code** archives contain this repository’s reference code and documentation, without the theme asset bundle.
 
 ## Install
 
-Extract the installer ZIP, open a terminal inside its `Crimson-Glass-1.0.0` folder, and run as your **normal desktop user**:
+Extract the installer ZIP, open a terminal inside its `Crimson-Glass-1.1.0` folder, and run as your **normal desktop user**:
 
 ```sh
 sh ./install.sh --all
@@ -39,6 +39,18 @@ To check the plan before making changes:
 ```sh
 sh ./install.sh --all --dry-run
 ```
+
+## Screen changes and game transparency (1.1.0)
+
+The user-session helper automatically realigns the five Crimson Glass monitoring widgets after a resolution, display scaling, or monitor change has settled for about 9 seconds. It uses logical desktop dimensions, tracks the managed widgets, preserves other widgets and panel settings, and saves five layout backups. Plasma currently ignores live geometry assignments on some versions, so the helper briefly restarts the desktop shell when it needs to apply a new layout; open applications keep running. It does not reset manual widget placement on ordinary logins. Displays below 800 × 816 logical pixels are left alone.
+
+The game opacity policy replaces the theme's broad KWin translucency effect. Fullscreen windows, Steam game classes, Windows `.exe`/Proton windows, common launcher/emulator classes, and processes carrying Steam, Lutris, Heroic, or an explicit game flag remain fully opaque even when inactive or moving. Standard application windows keep subtle inactive/move transparency. Application-rendered alpha, overlays, and unrelated third-party effects are outside this policy.
+
+For an unusual native windowed game, open its window menu with **Alt+F3** and choose **Crimson Glass: keep this window opaque**. This remembers the window class for future sessions. Alternatively, launch it with `CRIMSON_GLASS_GAME=1 your-game`. The helper reads only local same-user process information for classification; it does not transmit or log environment values.
+
+Use `--no-auto-align` or `--no-game-opacity` to opt out during installation. `--no-layout` keeps your current panels/widgets and leaves automatic alignment disabled. Runtime preferences and remembered game classes live in `~/.config/crimson-glass-runtime.json`; restart the helper after editing this file. To clear a remembered class, remove it from `opaque_classes`. Runtime logs and the five most recent alignment backups live in `~/.local/state/crimson-glass/`.
+
+An existing theme-owned `CrimsonGlass-Transparency` catch-all KWin rule is migrated away so it cannot force games transparent. Other window rules are retained. Restoration stops the helper, unloads the game policy, and restores the backed-up runtime files and preferences. Choose the upgrade's original backup to revert both features.
 
 ## What you get
 
@@ -83,7 +95,7 @@ Backups live under `~/.local/state/crimson-glass/backups/` (respecting `XDG_STAT
 Download the release’s ZIP and `.sha256` file into the same directory, then run:
 
 ```sh
-sha256sum -c Crimson-Glass-1.0.0.zip.sha256
+sha256sum -c Crimson-Glass-1.1.0.zip.sha256
 ```
 
 The installer also verifies the package’s internal file manifest. Checksums detect corruption; they are not a publisher signature.
@@ -92,7 +104,7 @@ The installer also verifies the package’s internal file manifest. Checksums de
 
 Fresh installation, reinstallation, and restoration passed in an isolated home, including all 145,098 icon links, preserved file permissions, and unrelated preferences. Additional tests cover hostile archives and links, startup recovery, multiple screen sizes, launcher registration, and sensor discovery. See [VALIDATION.txt](VALIDATION.txt) for the test scope.
 
-This repository provides the installer reference code, dependency recipes, documentation, and notices. The complete editable theme assets and cursor/boot artwork rebuild sources are included in the release ZIP, including its `assets.tar.xz` bundle. Source rebuild tools can require Pillow; normal installation uses Python’s standard library.
+This repository provides the installer reference code, dependency recipes, documentation, and notices. The complete editable theme assets and cursor/boot artwork rebuild sources are included in the release ZIP, including its `assets.tar.xz` bundle. Source rebuild tools can require Pillow; the installer uses Python’s standard library and the session helper uses distro-provided D-Bus/GObject bindings.
 
 ## Credits and licenses
 

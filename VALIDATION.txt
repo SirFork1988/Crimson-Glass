@@ -1,4 +1,35 @@
-CRIMSON GLASS 1.0.0 — RELEASE VALIDATION
+CRIMSON GLASS 1.1.0 — RELEASE VALIDATION
+
+Performed 2026-10-09 on CachyOS, Plasma 6.7.5 / Wayland.
+
+PASS: 9 runtime regression tests: six logical workspace sizes, unsupported
+      small screens, disconnected/missing widgets, unmanaged layout retention,
+      native/Steam/launcher/ancestor process classification, KWin window
+      lifecycle policy, persisted exemptions, and installer migration/restore.
+PASS: complete 1.1.0 archive installation, repeat installation, second snapshot
+      restore, original snapshot restore, preserved unrelated preferences,
+      private modes, Dolphin xattrs, and all 145,098 icon symlinks in a fake home.
+PASS: 11 existing mocked live-application/launcher/sensor tests against 1.1.0.
+PASS: current TV's 1707x960 logical workspace: all five widgets fit without
+      overlap. Simulated stale display signature triggers automatic alignment
+      after settling. No monitor mode or scaling was changed for testing.
+PASS: live KWin probe: an inactive native windowed game with an explicit game
+      launch flag stays at opacity 1. Steam/Proton, fullscreen, moving and
+      remembered-class behavior were covered by runtime fixtures.
+PASS: GitHub CLI and native runtime bindings installed on the source PC.
+PASS: new Debian/Fedora binding package names checked against official catalogs.
+PASS: final ZIP CRC, manifest verification, isolated dry-run, Python compilation,
+      shell syntax and source privacy checks.
+
+The runtime helpers were installed live; visual assets, panels, login and boot
+configuration were preserved. The visual payload is reused byte-for-byte from
+checksum-verified 1.0.0. Cross-distro live installations, actual game engines,
+reboot, and monitor hotplug transitions remain untested. The local KWin probe
+uses a temporary Qt window, not a commercial game.
+
+BASELINE VALIDATION (unchanged visual payload and startup tools)
+
+CRIMSON GLASS 1.0.0 — BASE VISUAL PAYLOAD VALIDATION
 
 Performed 2026-10-08 against the bundled release files.
 

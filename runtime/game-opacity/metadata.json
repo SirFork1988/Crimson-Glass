@@ -1,0 +1,13 @@
+{
+  "KPlugin": {
+    "Id": "crimson-glass-game-opacity",
+    "Name": "Crimson Glass — Opaque Games",
+    "Description": "Keep Steam, Proton, detected non-Steam games and fullscreen windows opaque.",
+    "Version": "1.1.0",
+    "License": "MIT",
+    "Authors": [{"Name": "Crimson Glass contributors"}]
+  },
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js",
+  "KPackageStructure": "KWin/Script"
+}

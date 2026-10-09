@@ -4,7 +4,7 @@ from pathlib import Path
 
 RECIPES = {
  'arch': {
-  'required': ['kvantum', 'kvantum-qt5', 'plasma-integration', 'plasma5-integration', 'breeze', 'breeze5', 'aurorae', 'qt6-5compat', 'kirigami-addons',
+  'required': ['python-dbus', 'python-gobject','kvantum', 'kvantum-qt5', 'plasma-integration', 'plasma5-integration', 'breeze', 'breeze5', 'aurorae', 'qt6-5compat', 'kirigami-addons',
     'kde-gtk-config', 'kdeplasma-addons', 'plasma-systemmonitor', 'dolphin', 'konsole', 'ark',
     'kio-extras', 'ffmpegthumbs', 'kdegraphics-thumbnailers', 'qt6-svg', 'qt5-svg', 'qt6-tools',
     'gtk3', 'gtk4', 'noto-fonts', 'appmenu-gtk-module', 'libdbusmenu-glib'],
@@ -13,7 +13,7 @@ RECIPES = {
   'boot': ['plymouth'],
  },
  'debian': {
-  'required': [['qt-style-kvantum', 'qt6-style-kvantum'], 'plasma-integration', 'plasma5-integration',
+  'required': ['python3-dbus', 'python3-gi',['qt-style-kvantum', 'qt6-style-kvantum'], 'plasma-integration', 'plasma5-integration',
     ['kwin-style-aurorae', 'kwin-common'], 'qml6-module-qt5compat-graphicaleffects', 'qml6-module-org-kde-kirigamiaddons-components',
     ['kde-style-breeze', 'breeze'], 'kde-style-breeze-qt5', 'kde-config-gtk-style', 'plasma-widgets-addons',
     'plasma-systemmonitor', 'dolphin', 'konsole', 'ark', 'kio-extras', 'ffmpegthumbs', 'kdegraphics-thumbnailers',
@@ -26,7 +26,7 @@ RECIPES = {
   'boot': ['plymouth', 'plymouth-themes'],
  },
  'fedora': {
-  'required': [['kvantum','kvantum-qt6'], 'kvantum-qt5', 'plasma-integration', 'plasma-integration-qt5', 'aurorae', 'qt6-qt5compat', 'kf6-kirigami-addons',
+  'required': ['python3-dbus', 'python3-gobject',['kvantum','kvantum-qt6'], 'kvantum-qt5', 'plasma-integration', 'plasma-integration-qt5', 'aurorae', 'qt6-qt5compat', 'kf6-kirigami-addons',
     'plasma-breeze', 'plasma-breeze-qt5', 'kde-gtk-config', 'kdeplasma-addons', 'plasma-systemmonitor',
     'dolphin', 'konsole', 'ark', 'kio-extras', 'ffmpegthumbs', 'kdegraphics-thumbnailers',
     'qt6-qtsvg', 'qt5-qtsvg', ['qt6-qttools','qt6-qttools-tools'], 'gtk3', 'gtk4',
