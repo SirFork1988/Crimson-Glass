@@ -1,0 +1,88 @@
+CRIMSON GLASS 1.1.0 — ASSET CREDITS AND SOURCE NOTICES
+
+This package is an aggregate of independent theme components. Each retains
+its upstream license; the complete license notices are in licenses/ and in
+the original component directories. No trademark rights are transferred.
+
+Crimson Glass Complete Icons
+  Papirus Development Team, release 20260801; GPL-3.0.
+  https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/releases/tag/20260801
+  Supplemental Tela assets by Vince Liuice and contributors; GPL-3.0.
+  https://github.com/vinceliuice/Tela-icon-theme
+  Additional Breeze icons by Uri Herrera, KDE Visual Design Group and
+  contributors; LGPL-3.0-or-later, with the included artwork clarification.
+  https://invent.kde.org/frameworks/breeze-icons
+  Local modifications made 2026-10-07/08: crimson folder gradients, ruby
+  symbolic accents, faceted application plates and custom subject glyphs,
+  plus SVG reference repairs. Custom SVG artwork is GPL-3.0-or-later.
+  The included custom-art and supplemental-art credits record the details.
+  All SVG artwork is editable source. The icon pack contains no macOS icon
+  pack sources. Public app names/logos remain their owners' trademarks.
+
+Plasma desktop theme, Aurorae decoration and Kvantum styles
+  Adapted from WhiteSur KDE by Vince Liuice and contributors; GPL-3.0.
+  Source revision: cf4df59ce91004f7ea39358b1b8ff917d5c329f7.
+  https://github.com/vinceliuice/WhiteSur-kde
+  Local modifications: charcoal/crimson palette, blur/translucency and
+  Dolphin-specific glass. SVG/SVGZ, QML and configuration files are source.
+
+GTK theme
+  Adapted from WhiteSur GTK; MIT.
+  Copyright (c) 2021 WhiteSur Developers.
+  Source revision: d5782652d412137e26fb8ff55b55a5572e4c6995.
+  https://github.com/vinceliuice/WhiteSur-gtk-theme
+  Local modifications: ruby theme palette and GTK3/GTK4 configuration.
+  The original MIT notice is included; CSS and SVG assets remain editable.
+
+Qogir-Dark cursor theme
+  Vince Liuice and the contributors in its original AUTHORS; GPL-3.0.
+  https://github.com/vinceliuice/Qogir-icon-theme
+  Appearance unmodified. Original cursor SVGs, aliases and hotspot/frame
+  metadata are provided in sources/Qogir-Dark. Lossless frame sources and
+  cursor-source.py rebuild all 47 bundled canonical Xcursor files exactly.
+
+Andromeda Launcher
+  EliverLara and contributors; GPL-2.0-or-later.
+  https://github.com/EliverLara/AndromedaLauncher
+  Source QML and JavaScript are bundled with their copyright notices.
+  Embedded Feather artwork: MIT, Copyright (c) 2013-2017 Cole Bemis.
+  Embedded Lucide artwork: ISC, Copyright (c) 2020 Lucide Contributors.
+  Layout settings integrate the launcher with the Crimson Glass theme.
+
+SDDM login theme
+  KDE Breeze QML, LGPL-2.0-or-later; David Edmundson, Boudhayan Gupta,
+  Aleix Pol Gonzalez and KDE contributors. Original SPDX headers retained.
+  https://invent.kde.org/plasma/plasma-desktop/-/tree/master/sddm-theme
+  Local modifications: glass panel, original Crimson ribbon/monogram and
+  theme configuration. QML is included as editable corresponding source.
+  The inherited Breeze metadata label CC-BY-SA does not identify a version;
+  the explicit QML SPDX licenses listed above govern those source files.
+
+Plymouth boot theme
+  Native spinner/input assets adapted from Plymouth 26.134.222;
+  GPL-2.0-or-later. Original asset provenance accompanies the theme.
+  https://gitlab.freedesktop.org/plymouth/plymouth
+  Local modifications: crimson tint and original Crimson ribbon/wordmark.
+  Theme PNG assets, configuration and source artwork/builders accompany it.
+
+KSplash and original Crimson artwork
+  Original Crimson Glass splash QML, monogram and ribbon artwork; CC0-1.0.
+  SVG/QML source and generated raster assets are included where applicable.
+
+Fonts
+  Noto Sans, Noto Sans Light and Noto Sans Mono are provided unmodified by
+  the distribution font packages, downloaded as prerequisites.
+  Copyright 2022 The Noto Project Authors; SIL Open Font License 1.1.
+  https://github.com/notofonts/latin-greek-cyrillic
+  The exact font license is included. Font licensing does not change the
+  license of raster theme images produced with the fonts.
+
+Modification and integration date: 2026-10-08.
+The original copyright, license and no-warranty notices remain in force.
+
+Portable installer and restoration tools
+  Original Crimson Glass integration code; MIT.
+  See licenses/MIT-Crimson-Glass-Installer.txt.
+
+Screen alignment helper, game detection service, and KWin opacity script
+  Original Crimson Glass integration code; MIT, added 2026-10-09.

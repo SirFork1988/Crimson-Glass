@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=Crimson Glass
+Description=Charcoal glass and crimson ribbons, with KDE Breeze login controls
+Author=SirFork1988; KDE Visual Design Group and contributors
+Copyright=KDE contributors
+License=LGPL-2.0-or-later; CC0-1.0 (original Crimson Glass artwork)
+Type=sddm-theme
+Version=1.1.0
+Website=https://github.com/SirFork1988/Crimson-Glass
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Theme-Id=CrimsonGlass
+Theme-API=2.0
+QtVersion=6
+

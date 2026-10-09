@@ -86,3 +86,12 @@ Portable installer and restoration tools
 
 Screen alignment helper, game detection service, and KWin opacity script
   Original Crimson Glass integration code; MIT, added 2026-10-09.
+
+KDE color scheme
+  CrimsonGlass.colors adapts KDE Breeze Dark; LGPL-2.0-or-later.
+  Andrew Lake, Marco Martin, Nate Graham, Noah Davis, Neal Gompa,
+  David Redondo and Thomas Duckworth. Store palette source retains headers.
+  https://invent.kde.org/plasma/breeze/-/blob/master/colors/BreezeDark.colors
+
+Konsole configuration and native Store layout integration
+  Original Crimson Glass integration configuration; MIT.

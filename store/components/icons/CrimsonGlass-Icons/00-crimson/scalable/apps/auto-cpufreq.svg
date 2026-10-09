@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><title>auto-cpufreq — Crimson Glass</title><defs>
+ <linearGradient id="plate" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#30212d"/><stop offset=".52" stop-color="#18121b"/><stop offset="1" stop-color="#111016"/></linearGradient>
+ <linearGradient id="ruby" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff7088"/><stop offset=".42" stop-color="#e84156"/><stop offset="1" stop-color="#8b2038"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff7088" stop-opacity=".74"/><stop offset=".4" stop-color="#5e344b"/><stop offset="1" stop-color="#e84156" stop-opacity=".45"/></linearGradient>
+</defs>
+<path d="M14 5H48L59 16V50L50 59H16L5 48V14Z" fill="#000" opacity=".25" transform="translate(0 1)"/>
+<path d="M14 5H48L59 16V50L50 59H16L5 48V14Z" fill="url(#plate)" stroke="url(#edge)" stroke-width="1.3"/>
+<path d="M15 6H48L58 16H39L28 6Z" fill="#fff" opacity=".065"/>
+<path d="M7 15L15 7H30" fill="none" stroke="#ff7088" stroke-width="1.2" opacity=".6"/>
+<path d="M39 57H49L57 49" fill="none" stroke="#e84156" stroke-width="1.5" opacity=".65"/>
+<path d="M15 20H36V43H15Z" fill="url(#ruby)"/><path d="M20 25H31V38H20Z" fill="#111016"/>
+     <path d="M19 15V20M26 15V20M33 15V20M19 43V48M26 43V48M33 43V48M10 24H15M10 32H15M10 40H15" stroke="#eceaf0" stroke-width="2.6"/>
+     <path d="M34 43A13 13 0 0 1 53 26" fill="none" stroke="#eceaf0" stroke-width="3.2" stroke-linecap="round"/>
+     <path d="M44 36L51 29M38 31L40 33M45 25V28" stroke="#ff7088" stroke-width="3" stroke-linecap="round"/><circle cx="44" cy="36" r="3" fill="#eceaf0"/><path d="M37 46H50" fill="none" stroke="#e84156" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>

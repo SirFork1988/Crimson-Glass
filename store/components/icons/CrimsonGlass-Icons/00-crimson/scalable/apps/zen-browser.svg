@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><title>Zen Browser — Crimson Glass</title><defs>
+ <linearGradient id="plate" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#30212d"/><stop offset=".52" stop-color="#18121b"/><stop offset="1" stop-color="#111016"/></linearGradient>
+ <linearGradient id="ruby" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff7088"/><stop offset=".42" stop-color="#e84156"/><stop offset="1" stop-color="#8b2038"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff7088" stop-opacity=".74"/><stop offset=".4" stop-color="#5e344b"/><stop offset="1" stop-color="#e84156" stop-opacity=".45"/></linearGradient>
+</defs>
+<path d="M14 5H48L59 16V50L50 59H16L5 48V14Z" fill="#000" opacity=".25" transform="translate(0 1)"/>
+<path d="M14 5H48L59 16V50L50 59H16L5 48V14Z" fill="url(#plate)" stroke="url(#edge)" stroke-width="1.3"/>
+<path d="M15 6H48L58 16H39L28 6Z" fill="#fff" opacity=".065"/>
+<path d="M7 15L15 7H30" fill="none" stroke="#ff7088" stroke-width="1.2" opacity=".6"/>
+<path d="M39 57H49L57 49" fill="none" stroke="#e84156" stroke-width="1.5" opacity=".65"/>
+<g transform="translate(8 8) scale(.75)"><path xmlns="http://www.w3.org/2000/svg" style="fill:#ff7088" d="M 32,22 A 10,10 0 0 0 22,32 10,10 0 0 0 32,42 10,10 0 0 0 42,32 10,10 0 0 0 32,22 Z M 32,25 A 7,7 0 0 1 39,32 7,7 0 0 1 32,39 7,7 0 0 1 25,32 7,7 0 0 1 32,25 Z M 32,15 A 17,17 0 0 0 15,32 17,17 0 0 0 32,49 17,17 0 0 0 49,32 17,17 0 0 0 32,15 Z M 32,19 A 13,13 0 0 1 45,32 13,13 0 0 1 32,45 13,13 0 0 1 19,32 13,13 0 0 1 32,19 Z M 32,7 A 25,25 0 0 0 7,32 25,25 0 0 0 32,57 25,25 0 0 0 57,32 25,25 0 0 0 32,7 Z M 32,12 A 20,20 0 0 1 52,32 20,20 0 0 1 32,52 20,20 0 0 1 12,32 20,20 0 0 1 32,12 Z" />
+ </g></svg>

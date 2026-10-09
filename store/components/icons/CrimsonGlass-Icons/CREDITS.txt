@@ -1,0 +1,27 @@
+CRIMSON GLASS COMPLETE ICONS
+
+Primary art: Papirus Development Team, release 20260801.
+https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/releases/tag/20260801
+Papirus is licensed under GPL-3.0. The original LICENSE is in licenses/.
+
+Supplemental art: Tela by vinceliuice, from the installed Tela-dark theme.
+https://github.com/vinceliuice/Tela-icon-theme
+Tela is licensed under GPL-3.0. The original COPYING is in licenses/.
+
+Additional KDE coverage: Breeze by the KDE Visual Design Group and contributors.
+https://invent.kde.org/frameworks/breeze-icons
+Breeze is licensed under LGPL-3.0-or-later, with its artwork clarification.
+The original COPYING-ICONS is in licenses/.
+
+Crimson adaptations: dark symbolic text, ruby accent fallbacks, native red
+folder variants with restrained glass gradients; original faceted app plates
+and custom glyphs. Explicit alternate folder colors, warnings, errors, battery
+levels and positive status colors retain their meaning. The custom artwork
+is described in CUSTOM-ART-CREDITS.md and SUPPLEMENTAL-ART-CREDITS.md.
+
+This combined theme uses no WhiteSur, Mkos or other macOS icon sources.
+All copied assets and aliases are contained in this theme. Breeze-dark and
+hicolor are the only inherited fallbacks. Source SVGs are editable.
+
+The build replaces no system icon packages. The previous CrimsonGlass and
+WhiteSur packs are kept inactive so the saved icon settings can be restored.

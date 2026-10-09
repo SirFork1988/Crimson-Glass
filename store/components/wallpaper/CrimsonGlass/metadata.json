@@ -1,0 +1,15 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "SirFork1988"
+      }
+    ],
+    "Id": "CrimsonGlass",
+    "Name": "Crimson Glass",
+    "Description": "Charcoal ribbon and crimson light",
+    "License": "CC0-1.0",
+    "Version": "1.1.0",
+    "Website": "https://github.com/SirFork1988/Crimson-Glass"
+  }
+}

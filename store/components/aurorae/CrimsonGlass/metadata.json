@@ -1,0 +1,27 @@
+{
+  "KPackageStructure": "aurorae",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "SirFork1988"
+      },
+      {
+        "Email": "vinceliuice@hotmail.com",
+        "Name": "Vince Liuice"
+      }
+    ],
+    "Category": "Plasma 6 Window Decorations",
+    "ServiceTypes": [
+      "aurorae"
+    ],
+    "EnabledByDefault": true,
+    "Name": "Crimson Glass",
+    "Description": "Crimson Glass window decorations; adapted from WhiteSur by Vince Liuice.",
+    "Id": "CrimsonGlass",
+    "License": "GPL-3.0",
+    "Version": "1.1.0",
+    "X-KDE-PluginInfo-blur": false,
+    "X-KPackage-Dependencies": [],
+    "Website": "https://github.com/SirFork1988/Crimson-Glass"
+  }
+}

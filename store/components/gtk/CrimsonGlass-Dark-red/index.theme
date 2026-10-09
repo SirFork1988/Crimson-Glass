@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Crimson Glass Dark Red
+Comment=Charcoal and crimson GTK theme; adapted from WhiteSur GTK
+Encoding=UTF-8
+X-CrimsonGlass-Version=1.1.0
+
+[X-GNOME-Metatheme]
+GtkTheme=CrimsonGlass-Dark-red
+MetacityTheme=CrimsonGlass-Dark-red
+IconTheme=CrimsonGlass-Icons
+CursorTheme=Qogir-Dark
+ButtonLayout=close,minimize,maximize:menu
+

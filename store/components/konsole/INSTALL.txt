@@ -1,0 +1,7 @@
+Crimson Glass Konsole 1.1.0
+
+Import CrimsonGlass.colorscheme in Konsole > Edit Profile > Appearance, or copy the .colorscheme and optional .profile to ~/.local/share/konsole. The profile uses Noto Sans Mono and does not set a shell command or working directory.
+
+Project: https://github.com/SirFork1988/Crimson-Glass
+Full installer and optional runtime: https://github.com/SirFork1988/Crimson-Glass/releases/tag/v1.1.0
+This native component contains no automatic installer or post-install hooks.

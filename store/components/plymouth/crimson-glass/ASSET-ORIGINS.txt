@@ -1,0 +1,9 @@
+Crimson Glass Plymouth theme
+
+Native animation and input PNG assets adapted from the installed Plymouth spinner theme
+(Plymouth 26.134.222; GPL-2.0-or-later; https://gitlab.freedesktop.org/plymouth/plymouth).
+Input, keyboard, lock and caps-lock PNGs retain source geometry and transparency;
+only blue accent pixels become crimson. Bullet and keymap-render PNGs are unmodified.
+Spinner and end-animation frames have a crimson tint with source transparency preserved.
+Crimson Glass monogram, wordmark and ribbon background are locally created theme art.
+Artwork is rendered using Qt SVG/QPainter. No daemon, bootloader, or system config is modified by the build.

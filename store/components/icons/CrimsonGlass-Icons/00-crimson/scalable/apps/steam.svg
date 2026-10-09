@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><title>Steam — Crimson Glass</title><defs>
+ <linearGradient id="plate" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#30212d"/><stop offset=".52" stop-color="#18121b"/><stop offset="1" stop-color="#111016"/></linearGradient>
+ <linearGradient id="ruby" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff7088"/><stop offset=".42" stop-color="#e84156"/><stop offset="1" stop-color="#8b2038"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff7088" stop-opacity=".74"/><stop offset=".4" stop-color="#5e344b"/><stop offset="1" stop-color="#e84156" stop-opacity=".45"/></linearGradient>
+</defs>
+<path d="M14 5H48L59 16V50L50 59H16L5 48V14Z" fill="#000" opacity=".25" transform="translate(0 1)"/>
+<path d="M14 5H48L59 16V50L50 59H16L5 48V14Z" fill="url(#plate)" stroke="url(#edge)" stroke-width="1.3"/>
+<path d="M15 6H48L58 16H39L28 6Z" fill="#fff" opacity=".065"/>
+<path d="M7 15L15 7H30" fill="none" stroke="#ff7088" stroke-width="1.2" opacity=".6"/>
+<path d="M39 57H49L57 49" fill="none" stroke="#e84156" stroke-width="1.5" opacity=".65"/>
+<g transform="translate(8 8) scale(.75)"><path xmlns="http://www.w3.org/2000/svg" style="fill:#eceaf0" d="M 30.6,23.6 34.8,33.4 44.7,34.8 29.2,44.6 V 37.6 H 22.2 Z" />
+ <path xmlns="http://www.w3.org/2000/svg" style="fill:#eceaf0" d="M 40 15 A 11 11 0 0 0 29 26 A 11 11 0 0 0 40 37 A 11 11 0 0 0 51 26 A 11 11 0 0 0 40 15 z M 40 19 A 7 7 0 0 1 47 26 A 7 7 0 0 1 40 33 A 7 7 0 0 1 33 26 A 7 7 0 0 1 40 19 z" />
+ <path xmlns="http://www.w3.org/2000/svg" style="fill:#eceaf0" d="M 23.5 35 A 8.5 8.5 0 0 0 15 43.5 A 8.5 8.5 0 0 0 23.5 52 A 8.5 8.5 0 0 0 32 43.5 A 8.5 8.5 0 0 0 23.5 35 z M 23.5 38 A 5.5 5.5 0 0 1 29 43.5 A 5.5 5.5 0 0 1 23.5 49 A 5.5 5.5 0 0 1 18 43.5 A 5.5 5.5 0 0 1 23.5 38 z" />
+ <circle xmlns="http://www.w3.org/2000/svg" style="fill:#eceaf0" cx="40" cy="26" r="5" />
+ <path xmlns="http://www.w3.org/2000/svg" style="fill:#eceaf0" d="M 4.046875 31.078125 A 28 28 0 0 0 4 32 A 28 28 0 0 0 4.9375 39.123047 L 22.085938 46.701172 A 3.50035 3.50035 0 1 0 24.914062 40.298828 L 4.046875 31.078125 z" />
+ </g></svg>

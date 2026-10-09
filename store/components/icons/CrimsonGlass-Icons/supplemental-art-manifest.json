@@ -1,0 +1,146 @@
+{
+  "theme": "Crimson Glass supplemental faceted app icons",
+  "license": "GPL-3.0-or-later",
+  "created": "2026-10-07",
+  "palette": {
+    "dark": "#111016",
+    "plate": "#211822",
+    "red": "#e84156",
+    "rose": "#ff7088",
+    "white": "#eceaf0"
+  },
+  "source": "Original vector subject glyphs, with the shared original Crimson Glass faceted plate.",
+  "plate_reference": "Editable SVGs included in 00-crimson/scalable/apps",
+  "notes": [
+    "Ten SVGs; aliases are declared for the parent integrator, not written to home.",
+    "An empty or absolute Desktop Icon value requires a local desktop entry override to the proposed icon name.",
+    "These are unofficial subject icons, not copied brand glyphs. All artwork is vector and self-contained."
+  ],
+  "icons": [
+    {
+      "name": "io.github.monsler.Kalorite",
+      "title": "Kalorite",
+      "file": "svg/io.github.monsler.Kalorite.svg",
+      "aliases": [
+        "kalorite",
+        "Kalorite"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later",
+      "sha256": "65dfb512b8521660d7c46888150083d033d697b4b829ea8fb76ba28af27299eb"
+    },
+    {
+      "name": "auto-cpufreq",
+      "title": "auto-cpufreq",
+      "file": "svg/auto-cpufreq.svg",
+      "aliases": [
+        "auto-cpufreq-gtk",
+        "cpu-frequency"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later",
+      "sha256": "578b0be1d50ea26e7cac3546c5c1b67c709febb84b10671f4d2d5f73149e7a59"
+    },
+    {
+      "name": "edhm-ui",
+      "title": "EDHM UI",
+      "file": "svg/edhm-ui.svg",
+      "aliases": [
+        "EDHM_UI",
+        "EDHM-UI-V3",
+        "EDHM_UI_V3",
+        "edhm-ui-v3"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later",
+      "sha256": "47f02e1f9fdc658e2fb30249bc8f4523a28b380854df81135334c2bb4c9b24c4"
+    },
+    {
+      "name": "spotube",
+      "title": "Spotube",
+      "file": "svg/spotube.svg",
+      "aliases": [
+        "Spotube",
+        "com.github.KRTirtho.Spotube"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later",
+      "sha256": "b1aa9acc43149a08d6d31f12833032bd30bdd8ca790931c5ab0f38db0c7b7fc9"
+    },
+    {
+      "name": "steamvr",
+      "title": "SteamVR",
+      "file": "svg/steamvr.svg",
+      "aliases": [
+        "steam_icon_250820",
+        "valve-steamvr",
+        "SteamVR",
+        "steam-vr",
+        "steamVR"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later",
+      "sha256": "9c8f7bcd26fb1755f604263afb41600061e452066be9408e399124d9d79a14de"
+    },
+    {
+      "name": "vrmonitor",
+      "title": "VRMonitor",
+      "file": "svg/vrmonitor.svg",
+      "aliases": [
+        "valve-vrmonitor",
+        "VRMonitor"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later",
+      "sha256": "46ef051096256d0f5988512457ecc82b10e1ccd329ef89067e9c834b2257095a"
+    },
+    {
+      "name": "dinslegacy",
+      "title": "Din's Legacy",
+      "file": "svg/dinslegacy.svg",
+      "aliases": [
+        "DinsLegacy",
+        "dins-legacy"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later",
+      "sha256": "06cd9621ca250b401a41ef41fbfb3ce14ff112cc958395f1a92dca7428ef1557"
+    },
+    {
+      "name": "org.kde.foreground-booster",
+      "title": "Foreground Booster",
+      "file": "svg/org.kde.foreground-booster.svg",
+      "aliases": [
+        "foreground-booster",
+        "foregroundbooster",
+        "ForegroundBooster"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later",
+      "sha256": "73705a0592a5721b09fc440ac0d7a39e367f5c22a0f4005c5325a367647d087d"
+    },
+    {
+      "name": "crimson-mail",
+      "title": "Prospect Mail",
+      "file": "svg/crimson-mail.svg",
+      "aliases": [
+        "prospect-mail"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later",
+      "sha256": "b7087c595fb859e5b701b2b3a5285883f8bbfc7c83545530db1b3b2efb1936ee"
+    },
+    {
+      "name": "crimson-snapshots",
+      "title": "Snapshots / Restore",
+      "file": "svg/crimson-snapshots.svg",
+      "aliases": [
+        "LimineSnapperSync",
+        "limine-snapper-restore"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later",
+      "sha256": "177dfea424b084e629f8d2bb7e97617045397c4bcad10e0c8e4ce8b4f8571005"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "KPackageStructure": "Plasma/LookAndFeel",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "SirFork1988 / Crimson Glass contributors"
+      }
+    ],
+    "Category": "Plasma Look And Feel",
+    "Description": "Charcoal and crimson Plasma appearance with a matching splash and optional menu, dock, and system-monitor layout",
+    "Id": "org.crimsonglass.desktop",
+    "License": "LGPL-2.0-or-later",
+    "Name": "Crimson Glass",
+    "Version": "1.1.0",
+    "Website": "https://github.com/SirFork1988/Crimson-Glass"
+  },
+  "X-Plasma-APIVersion": "2"
+}

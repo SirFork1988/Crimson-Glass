@@ -1,0 +1,35 @@
+[Desktop Entry]
+Name=Crimson Glass
+Comment=Charcoal and crimson glass; adapted from WhiteSur by Vince Liuice
+X-KDE-PluginInfo-Author=SirFork1988; Vince Liuice
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-Email=vinceliuice@hotmail.com
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=GPL3.0
+X-KDE-PluginInfo-Name=CrimsonGlass
+X-KDE-PluginInfo-Version=1.1.0
+X-KDE-PluginInfo-Website=https://github.com/SirFork1988/Crimson-Glass
+X-Plasma-API=5.0
+
+[Wallpaper]
+defaultWallpaperTheme=CrimsonGlass
+defaultFileSuffix=.png
+defaultHeight=2160
+defaultWidth=3840
+
+[ContrastEffect]
+enabled=false
+contrast=0.2
+intensity=1.4
+saturation=10
+
+[AdaptiveTransparency]
+enabled=true
+
+[Settings]
+FallbackTheme=oxygen
+
+[BlurBehindEffect]
+enabled=true
+

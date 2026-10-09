@@ -1,0 +1,19 @@
+Crimson Glass native Global Theme 1.1.0
+Editable source: https://github.com/SirFork1988/Crimson-Glass/tree/main/store/global-theme
+Full component source: https://github.com/SirFork1988/Crimson-Glass/tree/main/store/components
+
+This archive is a collection of separately licensed source files:
+- contents/colors: Breeze Dark palette adapted to Crimson Glass,
+  LGPL-2.0-or-later. Original copyright and SPDX headers are preserved.
+  Upstream: https://invent.kde.org/plasma/breeze/-/blob/master/colors/BreezeDark.colors
+- contents/splash, its original Crimson ribbon and monogram, metadata/defaults:
+  Crimson Glass contributors, CC0-1.0. Qt Quick QML and SVG are source.
+- contents/layouts: Crimson Glass contributors, MIT; adapted from this
+  project's portable layout.js. The matching MIT notice is under licenses/.
+- Preview images depict the complete installation. CREDITS.txt identifies
+  the upstream artwork shown (WhiteSur KDE, Papirus, Tela, Breeze and Qogir).
+  Screenshots do not include the underlying component packs in this archive.
+
+The package metadata uses LGPL-2.0-or-later for the bundled palette; it does
+not replace the individual MIT/CC0 source licenses listed above. Downloaded
+Store dependencies retain their own licenses and upstream credit notices.

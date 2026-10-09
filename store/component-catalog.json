@@ -1,0 +1,235 @@
+{
+  "version": "1.1.0",
+  "project": "https://github.com/SirFork1988/Crimson-Glass",
+  "source_layout": "Fully extracted editable corresponding source under store/components/",
+  "components": [
+    {
+      "key": "icons",
+      "name": "Crimson Glass Complete Icons",
+      "category": "Full Icon Themes",
+      "version": "1.1.0",
+      "archive": "Crimson-Glass-Icons-1.1.0.tar.gz",
+      "sha256": "c808ba2dff2f9b01f5315b71a17589f18b2214464c6c35ba97a2a0a5520ec334",
+      "bytes": 35720395,
+      "license": "GPL-3.0 AND LGPL-3.0-or-later",
+      "package_ids": [
+        "CrimsonGlass-Icons"
+      ],
+      "source_url": "https://github.com/SirFork1988/Crimson-Glass/tree/main/store/components/icons",
+      "installation": "Extract CrimsonGlass-Icons into ~/.local/share/icons, then select it in System Settings > Colors & Themes > Icons.",
+      "validation": {
+        "files": 50724,
+        "symlinks": 145098,
+        "directories": 296
+      },
+      "store_id": null
+    },
+    {
+      "key": "plasma-style",
+      "name": "Crimson Glass Plasma Style",
+      "category": "Plasma Themes",
+      "version": "1.1.0",
+      "archive": "Crimson-Glass-Plasma-Style-1.1.0.tar.gz",
+      "sha256": "3107334e5f74094b77d51321f61284c72a9c41f06ed9281bc0741425f4046304",
+      "bytes": 358224,
+      "license": "GPL-3.0 AND LGPL-2.0-or-later",
+      "package_ids": [
+        "CrimsonGlass"
+      ],
+      "source_url": "https://github.com/SirFork1988/Crimson-Glass/tree/main/store/components/plasma-style",
+      "installation": "Install with System Settings > Colors & Themes > Plasma Style > Get New, or kpackagetool6 --type Plasma/Theme --install ARCHIVE.",
+      "validation": {
+        "files": 126,
+        "symlinks": 0,
+        "directories": 8
+      },
+      "store_id": null
+    },
+    {
+      "key": "aurorae",
+      "name": "Crimson Glass Window Decorations",
+      "category": "Aurorae Themes",
+      "version": "1.1.0",
+      "archive": "Crimson-Glass-Aurorae-1.1.0.tar.gz",
+      "sha256": "6ee5edcd5a9fee4edfded362d2223d5e17c2a7184b35141112ace95f48201c8e",
+      "bytes": 39213,
+      "license": "GPL-3.0",
+      "package_ids": [
+        "CrimsonGlass"
+      ],
+      "source_url": "https://github.com/SirFork1988/Crimson-Glass/tree/main/store/components/aurorae",
+      "installation": "Extract CrimsonGlass into ~/.local/share/aurorae/themes and select it in System Settings > Colors & Themes > Window Decorations.",
+      "validation": {
+        "files": 16,
+        "symlinks": 0,
+        "directories": 1
+      },
+      "store_id": null
+    },
+    {
+      "key": "kvantum",
+      "name": "Crimson Glass Kvantum",
+      "category": "Kvantum",
+      "version": "1.1.0",
+      "archive": "Crimson-Glass-Kvantum-1.1.0.tar.gz",
+      "sha256": "cf07f88ffcb3c82e6f8eee65fc91d59eb0aa5c931ae352a06e2603bb76e5d2ea",
+      "bytes": 124693,
+      "license": "GPL-3.0",
+      "package_ids": [
+        "CrimsonGlass",
+        "CrimsonGlassDolphin"
+      ],
+      "source_url": "https://github.com/SirFork1988/Crimson-Glass/tree/main/store/components/kvantum",
+      "installation": "Install Kvantum and the Qt 5/6 style plugins from your distribution. Extract both directories. In Kvantum Manager install each theme directory, select CrimsonGlass, then assign CrimsonGlassDolphin to Dolphin if desired. Select Kvantum as the Qt application style.",
+      "validation": {
+        "files": 10,
+        "symlinks": 0,
+        "directories": 2
+      },
+      "store_id": null
+    },
+    {
+      "key": "gtk",
+      "name": "Crimson Glass GTK",
+      "category": "GTK3/4 Themes",
+      "version": "1.1.0",
+      "archive": "Crimson-Glass-GTK-1.1.0.tar.gz",
+      "sha256": "58e724a612dc72fe696b897baecf068e1d6993c035565ebec3729dc8734f10a9",
+      "bytes": 390048,
+      "license": "MIT",
+      "package_ids": [
+        "CrimsonGlass-Dark-red"
+      ],
+      "source_url": "https://github.com/SirFork1988/Crimson-Glass/tree/main/store/components/gtk",
+      "installation": "Extract CrimsonGlass-Dark-red into ~/.local/share/themes (or ~/.themes) and select it in GTK application style settings. GTK 2 requires the Murrine engine. Libadwaita applications may ignore GTK themes; this package does not overwrite your global GTK4 configuration.",
+      "validation": {
+        "files": 813,
+        "symlinks": 0,
+        "directories": 26
+      },
+      "store_id": null
+    },
+    {
+      "key": "wallpaper",
+      "name": "Crimson Glass Wallpaper",
+      "category": "Wallpapers KDE",
+      "version": "1.1.0",
+      "archive": "Crimson-Glass-Wallpaper-1.1.0.tar.gz",
+      "sha256": "867c01e255ac7951a0107aad33900bf835310f93061fb97683d1d79c6d23e02d",
+      "bytes": 498347,
+      "license": "CC0-1.0",
+      "package_ids": [
+        "CrimsonGlass"
+      ],
+      "source_url": "https://github.com/SirFork1988/Crimson-Glass/tree/main/store/components/wallpaper",
+      "installation": "Extract CrimsonGlass into ~/.local/share/wallpapers, then choose Crimson Glass in desktop wallpaper settings. Image is 3840x2160; editable SVG is included.",
+      "validation": {
+        "files": 7,
+        "symlinks": 0,
+        "directories": 3
+      },
+      "store_id": null
+    },
+    {
+      "key": "sddm",
+      "name": "Crimson Glass Login",
+      "category": "SDDM Login Themes",
+      "version": "1.1.0",
+      "archive": "Crimson-Glass-SDDM-1.1.0.tar.gz",
+      "sha256": "0c7d2f4e4fc5a448e382ad00fc43d0d596489bc823555c585945b6091b40e21f",
+      "bytes": 515332,
+      "license": "LGPL-2.0-or-later AND CC0-1.0",
+      "package_ids": [
+        "CrimsonGlass"
+      ],
+      "source_url": "https://github.com/SirFork1988/Crimson-Glass/tree/main/store/components/sddm",
+      "installation": "Requires SDDM with Qt 6, Plasma 6 Breeze components, Kirigami, Plasma Components, and Qt5Compat GraphicalEffects. Install via System Settings > Login Screen (SDDM) > Install from File, then select Crimson Glass. Administrator authentication is required. This archive never changes the display manager automatically.",
+      "validation": {
+        "files": 18,
+        "symlinks": 0,
+        "directories": 4
+      },
+      "store_id": null
+    },
+    {
+      "key": "plymouth",
+      "name": "Crimson Glass Boot Splash",
+      "category": "Plymouth Themes",
+      "version": "1.1.0",
+      "archive": "Crimson-Glass-Plymouth-1.1.0.tar.gz",
+      "sha256": "4b9ab035c602c6a2074efd8202cd8ef9143d796b1f8fb766bb0381349115ad5b",
+      "bytes": 467590,
+      "license": "GPL-2.0-or-later AND CC0-1.0",
+      "package_ids": [
+        "crimson-glass"
+      ],
+      "source_url": "https://github.com/SirFork1988/Crimson-Glass/tree/main/store/components/plymouth",
+      "installation": "Requires Plymouth's two-step renderer and Noto Sans/Noto Sans Light/Noto Sans Mono. Install crimson-glass into /usr/share/plymouth/themes using your distribution's theme manager, select it and rebuild the initramfs using your distribution's documented procedure. This archive contains no bootloader, initramfs, or privilege scripts.",
+      "validation": {
+        "files": 161,
+        "symlinks": 0,
+        "directories": 5
+      },
+      "store_id": null
+    },
+    {
+      "key": "konsole",
+      "name": "Crimson Glass Konsole",
+      "category": "Konsole Color Schemes",
+      "version": "1.1.0",
+      "archive": "Crimson-Glass-Konsole-1.1.0.tar.gz",
+      "sha256": "925d0b63ef2d0b2697f8bf8809f2c14f8d827ddca9e7d57bb6ea22839a987d6c",
+      "bytes": 3673,
+      "license": "MIT",
+      "package_ids": [
+        "CrimsonGlass.colorscheme",
+        "CrimsonGlass.profile"
+      ],
+      "source_url": "https://github.com/SirFork1988/Crimson-Glass/tree/main/store/components/konsole",
+      "installation": "Import CrimsonGlass.colorscheme in Konsole > Edit Profile > Appearance, or copy the .colorscheme and optional .profile to ~/.local/share/konsole. The profile uses Noto Sans Mono and does not set a shell command or working directory.",
+      "validation": {
+        "files": 6,
+        "symlinks": 0,
+        "directories": 0
+      },
+      "store_id": null
+    },
+    {
+      "key": "color-scheme",
+      "name": "Crimson Glass Colors",
+      "category": "Plasma Color Schemes",
+      "version": "1.1.0",
+      "archive": "Crimson-Glass-Color-Scheme-1.1.0.tar.gz",
+      "sha256": "dc033c4da2329258e216f6f8d739491f12ab98b7b593c17bc1c263b8bb68486f",
+      "bytes": 11924,
+      "license": "LGPL-2.0-or-later",
+      "package_ids": [
+        "CrimsonGlass.colors"
+      ],
+      "source_url": "https://github.com/SirFork1988/Crimson-Glass/tree/main/store/components/color-scheme",
+      "installation": "Import CrimsonGlass.colors in System Settings > Colors & Themes > Colors, or copy it to ~/.local/share/color-schemes.",
+      "validation": {
+        "files": 5,
+        "symlinks": 0,
+        "directories": 0
+      },
+      "store_id": null
+    }
+  ],
+  "upstream_companions": [
+    {
+      "name": "Qogir Dark Cursors",
+      "store_url": "https://store.kde.org/p/1366182",
+      "source_url": "https://github.com/vinceliuice/Qogir-icon-theme",
+      "upload": false,
+      "reason": "Appearance unmodified; use upstream listing."
+    },
+    {
+      "name": "Andromeda Launcher",
+      "store_url": "https://store.kde.org/p/2144212",
+      "source_url": "https://github.com/EliverLara/AndromedaLauncher",
+      "upload": false,
+      "reason": "Unmodified upstream component; use author's Plasma 6 listing."
+    }
+  ]
+}

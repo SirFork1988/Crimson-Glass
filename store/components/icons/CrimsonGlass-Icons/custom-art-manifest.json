@@ -1,0 +1,250 @@
+{
+  "theme": "Crimson Glass faceted app icons",
+  "license": "GPL-3.0-or-later",
+  "palette": {
+    "dark": "#111016",
+    "plate": "#211822",
+    "red": "#e84156",
+    "rose": "#ff7088",
+    "white": "#eceaf0"
+  },
+  "notes": [
+    "Original faceted charcoal plates are not macOS icon shapes.",
+    "ChatGPT uses a custom chat/hexagon glyph, not an official OpenAI logo.",
+    "Teams, Home Assistant, Music Assistant, Spotify and RGB Command Center use bespoke recognizable subject glyphs.",
+    "Brand geometry for Edge, Firefox, Zen and Steam is adapted from installed Papirus; color is changed to crimson."
+  ],
+  "icons": [
+    {
+      "name": "org.kde.dolphin",
+      "title": "Dolphin",
+      "file": "svg/org.kde.dolphin.svg",
+      "aliases": [
+        "dolphin",
+        "system-file-manager",
+        "file-manager"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "application-launcher",
+      "title": "Application launcher",
+      "file": "svg/application-launcher.svg",
+      "aliases": [
+        "start-here",
+        "start-here-kde",
+        "kde",
+        "kde-plasma",
+        "crimson-launcher",
+        "distributor-logo-cachyos",
+        "cachyos",
+        "launcher"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "chatgpt",
+      "title": "ChatGPT",
+      "file": "svg/chatgpt.svg",
+      "aliases": [
+        "com.openai.chatgpt",
+        "openai-chatgpt",
+        "codex"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "utilities-terminal",
+      "title": "Konsole",
+      "file": "svg/utilities-terminal.svg",
+      "aliases": [
+        "org.kde.konsole",
+        "konsole",
+        "terminal",
+        "Terminal",
+        "alacritty",
+        "Alacritty",
+        "kitty"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "preferences-system",
+      "title": "System Settings",
+      "file": "svg/preferences-system.svg",
+      "aliases": [
+        "systemsettings",
+        "kdesystemsettings",
+        "org.kde.systemsettings",
+        "preferences-desktop"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "btop",
+      "title": "btop system monitor",
+      "file": "svg/btop.svg",
+      "aliases": [
+        "htop",
+        "utilities-system-monitor",
+        "org.kde.plasma-systemmonitor",
+        "ksysguard"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "projectM",
+      "title": "projectM",
+      "file": "svg/projectM.svg",
+      "aliases": [
+        "projectm",
+        "projectm-pulseaudio",
+        "projectM-pulseaudio"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "music-assistant",
+      "title": "Music Assistant",
+      "file": "svg/music-assistant.svg",
+      "aliases": [
+        "musicassistant",
+        "sublime-music",
+        "multimedia-player",
+        "audio-player"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "home-assistant",
+      "title": "Home Assistant",
+      "file": "svg/home-assistant.svg",
+      "aliases": [
+        "homeassistant",
+        "io.homeassistant.HomeAssistant",
+        "org.homeassistant.HomeAssistant"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "teams-for-linux",
+      "title": "Microsoft Teams",
+      "file": "svg/teams-for-linux.svg",
+      "aliases": [
+        "teams",
+        "microsoft-teams",
+        "ms-teams",
+        "msedge-ompifgpmddkgmclendfeacglnodjjndh-Default"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "rgb-command-center",
+      "title": "RGB Command Center",
+      "file": "svg/rgb-command-center.svg",
+      "aliases": [
+        "rgb-controller",
+        "openrgb"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "spotify",
+      "title": "Spotify",
+      "file": "svg/spotify.svg",
+      "aliases": [
+        "spotify-client",
+        "spotify-launcher"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "org.kde.kate",
+      "title": "Kate editor",
+      "file": "svg/org.kde.kate.svg",
+      "aliases": [
+        "kate",
+        "text-editor",
+        "accessories-text-editor",
+        "org.kde.kwrite",
+        "kwrite"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "org.kde.discover",
+      "title": "Discover software",
+      "file": "svg/org.kde.discover.svg",
+      "aliases": [
+        "plasmadiscover",
+        "system-software-install",
+        "softwarecenter"
+      ],
+      "source": "Original vector artwork created for Crimson Glass",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "microsoft-edge",
+      "title": "Microsoft Edge",
+      "file": "svg/microsoft-edge.svg",
+      "aliases": [
+        "microsoft-edge-stable",
+        "microsoft_edge",
+        "com.microsoft.Edge"
+      ],
+      "source": "Papirus/64x64/apps/microsoft-edge.svg",
+      "upstream": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "firefox",
+      "title": "Firefox",
+      "file": "svg/firefox.svg",
+      "aliases": [
+        "firefox-browser",
+        "org.mozilla.firefox"
+      ],
+      "source": "Papirus/64x64/apps/firefox.svg",
+      "upstream": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "zen-browser",
+      "title": "Zen Browser",
+      "file": "svg/zen-browser.svg",
+      "aliases": [
+        "zen",
+        "zen-browser-bin"
+      ],
+      "source": "Papirus/64x64/apps/zen-browser.svg",
+      "upstream": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "name": "steam",
+      "title": "Steam",
+      "file": "svg/steam.svg",
+      "aliases": [
+        "com.valvesoftware.Steam",
+        "steam-client"
+      ],
+      "source": "Papirus/64x64/apps/steam.svg",
+      "upstream": "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme",
+      "license": "GPL-3.0-or-later"
+    }
+  ],
+  "plate_reference": "Editable SVGs included in 00-crimson/scalable/apps"
+}

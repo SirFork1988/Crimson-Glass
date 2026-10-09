@@ -1,0 +1,5 @@
+Corresponding editable source and original notices are included in this package.
+Browse this exact component: https://github.com/SirFork1988/Crimson-Glass/tree/main/store/components/konsole
+Visual sources: SVG/SVGZ, QML, CSS, INI and PNG as applicable.
+Archive packaging script: https://github.com/SirFork1988/Crimson-Glass/blob/main/scripts/build_store_components.py
+Version: 1.1.0

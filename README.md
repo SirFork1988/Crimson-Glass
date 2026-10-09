@@ -113,3 +113,7 @@ Crimson Glass combines original artwork with work from Papirus, Tela, KDE Breeze
 ## Feedback
 
 Please include your distribution, Plasma version, installation options, and a redacted error message when reporting an issue. Do not upload personal backups, credentials, account screenshots, or private system configuration.
+
+## KDE Store packages
+
+Native companion packages and their fully extracted, credited source are in [store/](store/). [Store listing copy](store/LISTINGS.md) documents licenses and compatibility. The native Global Theme uses KDE appearance defaults and an optional desktop layout; automatic widget realignment and game opacity still require the full installer.

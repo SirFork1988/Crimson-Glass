@@ -1,0 +1,23 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "SirFork1988"
+      },
+      {
+        "Email": "vinceliuice@hotmail.com",
+        "Name": "Vince Liuice"
+      }
+    ],
+    "Category": "Plasma 6.0 theme",
+    "Description": "Charcoal and crimson glass; adapted from WhiteSur by Vince Liuice.",
+    "EnabledByDefault": true,
+    "Id": "CrimsonGlass",
+    "License": "GPL-3.0",
+    "Name": "Crimson Glass",
+    "Version": "1.1.0",
+    "Website": "https://github.com/SirFork1988/Crimson-Glass"
+  },
+  "X-Plasma-API": "5.0",
+  "KPackageStructure": "Plasma/Theme"
+}
