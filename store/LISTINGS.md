@@ -205,7 +205,7 @@ Adapted from KDE Breeze Dark by Andrew Lake, Marco Martin, Nate Graham, Noah Dav
 **Files:** `CrimsonGlass.colorscheme` and `Crimson-Glass-Konsole-1.1.0.tar.gz`  
 **Category:** Konsole Color Schemes  
 **Tags:** konsole, terminal, dark, red, crimson, translucent  
-**Preview:** capture a clean Konsole window before publishing; the existing gallery contains no dedicated terminal screenshot.  
+**Preview:** `konsole-palette.png` — rendered palette preview generated from the shipped colorscheme, not an application capture.  
 **Classification:** Original configuration.  
 **License selector:** MIT, as explicitly recorded for the original integration configuration in the native package.
 
@@ -213,7 +213,7 @@ Adapted from KDE Breeze Dark by Andrew Lake, Marco Martin, Nate Graham, Noah Dav
 
 A dark Konsole color scheme with ruby red, softly balanced terminal colors, an 88% background-opacity setting, and blur enabled. It complements the Crimson Glass KDE palette while preserving different ANSI colors for terminal output.
 
-Import **CrimsonGlass.colorscheme** in your Konsole profile's Appearance settings. Working desktop compositing is needed for transparency and blur. This component changes the terminal palette; it does not install a shell configuration, prompt, or fonts.
+Import **CrimsonGlass.colorscheme** in your Konsole profile's Appearance settings. The gallery image is a rendered palette preview, not an application screenshot. Working desktop compositing is needed for transparency and blur. This component changes the terminal palette; it does not install a shell configuration, prompt, or fonts.
 
 Original Crimson Glass terminal configuration by Crimson Glass contributors, MIT. The editable colorscheme and its license notice are included.
 

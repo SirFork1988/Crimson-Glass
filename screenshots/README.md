@@ -91,3 +91,5 @@ Rendered Plymouth update-layout preview.
 ## Launcher and floating dock
 
 The release includes the Andromeda launcher and floating dock. Available build captures of these still show the superseded Mac-style icons, so they are omitted to avoid misrepresenting the current package. Fresh launcher/dock captures remain to be added.
+
+- `konsole-palette.png`: rendered preview generated from the shipped ANSI palette; not an application capture.

@@ -117,3 +117,7 @@ Please include your distribution, Plasma version, installation options, and a re
 ## KDE Store packages
 
 Native companion packages and their fully extracted, credited source are in [store/](store/). [Store listing copy](store/LISTINGS.md) documents licenses and compatibility. The native Global Theme uses KDE appearance defaults and an optional desktop layout; automatic widget realignment and game opacity still require the full installer.
+
+### KDE Store components
+
+Native component downloads are now published under [SirFork1988](https://www.opendesktop.org/u/sirfork1988/products). See the [component list](store/PUBLISHING.md) for direct links. The native global theme complements the full installer; the installer provides automatic widget realignment and game-opacity helpers.

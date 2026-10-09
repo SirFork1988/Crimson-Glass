@@ -14,5 +14,14 @@
     "Version": "1.1.0",
     "Website": "https://github.com/SirFork1988/Crimson-Glass"
   },
-  "X-Plasma-APIVersion": "2"
+  "X-Plasma-APIVersion": "2",
+  "X-KPackage-Dependencies": [
+    "kns://plasma-themes.knsrc/api.kde-look.org/2377906",
+    "kns://icons.knsrc/api.kde-look.org/2377908",
+    "kns://aurorae.knsrc/api.kde-look.org/2377909",
+    "kns://wallpaper.knsrc/api.kde-look.org/2377905",
+    "kns://xcursor.knsrc/api.kde-look.org/1366182",
+    "kns://plasmoids.knsrc/api.kde-look.org/2144212",
+    "kns://colorschemes.knsrc/api.kde-look.org/2377915"
+  ]
 }

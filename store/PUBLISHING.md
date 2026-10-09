@@ -1,21 +1,22 @@
 # KDE Store publication status
 
-Account: SirFork1988 (created by the owner).
+Account: SirFork1988. Upload terms accepted with the owner's explicit authorization.
 
-Ten native component archives are built and verified. Their corresponding
-editable sources are in components/. The global package source is in
-global-theme/. Its local DRAFT archive is for validation only; final packaging
-requires actual published companion IDs, as described in GLOBAL-THEME-NOTES.md.
+All ten native component listings are published with source, credits, preview, and downloads.
 
-The Store Files step requires accepting the publishing terms before file upload.
-No native product has been submitted yet. Listings and archives are ready for
-that acceptance and upload step. Publish the companions first, record their
-IDs in published-ids.json, then build and upload the final global theme.
+- **wallpaper**: https://www.opendesktop.org/p/2377905/
+- **plasma-style**: https://www.opendesktop.org/p/2377906/
+- **aurorae**: https://www.opendesktop.org/p/2377909/
+- **icons**: https://www.opendesktop.org/p/2377908/
+- **kvantum**: https://www.opendesktop.org/p/2377910/
+- **gtk**: https://www.opendesktop.org/p/2377911/
+- **sddm**: https://www.opendesktop.org/p/2377913/
+- **plymouth**: https://www.opendesktop.org/p/2377914/
+- **color-scheme**: https://www.opendesktop.org/p/2377915/
+- **konsole**: https://www.opendesktop.org/p/2377916/
 
-Package validation: all archive files/aliases verified against extracted source;
-145,098 icon aliases resolve within the icon theme. Native global KPackage
-install/show/remove passed in an isolated HOME. No live theme application was
-performed during native package validation.
+The final native global-theme archive is built with the published IDs in `store-ids.json`; its upload is in progress.
 
-Local archives are in ../outputs/kde-store relative to the repository.
-Source preparation does not alter the existing 1.1.0 GitHub release ZIP.
+Validation: component archives and icon aliases verified against extracted source. Native global KPackage install/show/remove passed in an isolated HOME; final source metadata passes KPackage AppStream generation and matches the final archive. No live theme was changed. End-to-end online KNS dependency installation has not been verified: the Store front end currently blocks some automated connections.
+
+Color schemes use directly importable .colors/.colorscheme Store downloads; complete credited source and supplementary files remain in the repository. Full automatic widget realignment and game-opacity helpers are in the separate GitHub installer.

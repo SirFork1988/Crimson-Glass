@@ -22,7 +22,8 @@
         "symlinks": 145098,
         "directories": 296
       },
-      "store_id": null
+      "store_id": 2377908,
+      "store_url": "https://www.opendesktop.org/p/2377908/"
     },
     {
       "key": "plasma-style",
@@ -43,7 +44,8 @@
         "symlinks": 0,
         "directories": 8
       },
-      "store_id": null
+      "store_id": 2377906,
+      "store_url": "https://www.opendesktop.org/p/2377906/"
     },
     {
       "key": "aurorae",
@@ -64,7 +66,8 @@
         "symlinks": 0,
         "directories": 1
       },
-      "store_id": null
+      "store_id": 2377909,
+      "store_url": "https://www.opendesktop.org/p/2377909/"
     },
     {
       "key": "kvantum",
@@ -86,7 +89,8 @@
         "symlinks": 0,
         "directories": 2
       },
-      "store_id": null
+      "store_id": 2377910,
+      "store_url": "https://www.opendesktop.org/p/2377910/"
     },
     {
       "key": "gtk",
@@ -107,7 +111,8 @@
         "symlinks": 0,
         "directories": 26
       },
-      "store_id": null
+      "store_id": 2377911,
+      "store_url": "https://www.opendesktop.org/p/2377911/"
     },
     {
       "key": "wallpaper",
@@ -128,7 +133,8 @@
         "symlinks": 0,
         "directories": 3
       },
-      "store_id": null
+      "store_id": 2377905,
+      "store_url": "https://www.opendesktop.org/p/2377905/"
     },
     {
       "key": "sddm",
@@ -149,7 +155,8 @@
         "symlinks": 0,
         "directories": 4
       },
-      "store_id": null
+      "store_id": 2377913,
+      "store_url": "https://www.opendesktop.org/p/2377913/"
     },
     {
       "key": "plymouth",
@@ -170,7 +177,8 @@
         "symlinks": 0,
         "directories": 5
       },
-      "store_id": null
+      "store_id": 2377914,
+      "store_url": "https://www.opendesktop.org/p/2377914/"
     },
     {
       "key": "konsole",
@@ -192,7 +200,9 @@
         "symlinks": 0,
         "directories": 0
       },
-      "store_id": null
+      "store_id": 2377916,
+      "store_url": "https://www.opendesktop.org/p/2377916/",
+      "store_download": "CrimsonGlass.colorscheme"
     },
     {
       "key": "color-scheme",
@@ -213,7 +223,9 @@
         "symlinks": 0,
         "directories": 0
       },
-      "store_id": null
+      "store_id": 2377915,
+      "store_url": "https://www.opendesktop.org/p/2377915/",
+      "store_download": "CrimsonGlass.colors"
     }
   ],
   "upstream_companions": [
