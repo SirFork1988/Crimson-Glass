@@ -243,5 +243,11 @@
       "upload": false,
       "reason": "Unmodified upstream component; use author's Plasma 6 listing."
     }
-  ]
+  ],
+  "global_theme": {
+    "store_id": 2377917,
+    "store_url": "https://www.opendesktop.org/p/2377917/",
+    "archive": "Crimson-Glass-Global-Theme-1.1.0.tar.gz",
+    "sha256": "f0314c244677932bb550a52d8ecabc7f27b0bffa20bf5d98069c8ebf149eb1a0"
+  }
 }

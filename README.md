@@ -120,4 +120,4 @@ Native companion packages and their fully extracted, credited source are in [sto
 
 ### KDE Store components
 
-Native component downloads are now published under [SirFork1988](https://www.opendesktop.org/u/sirfork1988/products). See the [component list](store/PUBLISHING.md) for direct links. The native global theme complements the full installer; the installer provides automatic widget realignment and game-opacity helpers.
+The [Plasma 6 Global Theme](https://www.opendesktop.org/p/2377917/) and native component downloads are now published under [SirFork1988](https://www.opendesktop.org/u/sirfork1988/products). See the [component list](store/PUBLISHING.md) for direct links. The native global theme complements the full installer; the installer provides automatic widget realignment and game-opacity helpers.

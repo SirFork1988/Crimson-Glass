@@ -35,6 +35,8 @@ This is the native Global Theme package. Its component dependencies must be avai
 
 The optional native desktop layout provides the global-menu panel, floating dock, and monitoring widgets through KDE's layout selection workflow. Automatic display-change realignment, game opacity detection, and the full Kvantum/GTK configuration require the separately documented GitHub installer. Global menus work with applications that export menus; application-owned transparency and isolated application themes can differ.
 
+Package licenses: Breeze-derived palette LGPL-2.0-or-later; original ribbon, monogram and splash artwork CC0-1.0; layout integration MIT. Individual notices govern.
+
 Original Crimson Glass preset, splash, ribbon, and monogram by Crimson Glass contributors. Companion assets retain the licenses and credits on their respective pages. Designed for Plasma 6; the complete desktop was tested on CachyOS with Plasma 6.7.5. Other distributions' live installations remain untested.
 
 ## Crimson Glass Complete Icons
