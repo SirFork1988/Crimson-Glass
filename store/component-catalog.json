@@ -157,8 +157,9 @@
       },
       "store_id": 2377913,
       "store_url": "https://www.opendesktop.org/p/2377913/",
-      "store_version": "1.1.0",
-      "github_download_url": "https://github.com/SirFork1988/Crimson-Glass/releases/download/v1.1.1/Crimson-Glass-SDDM-1.1.1.tar.gz"
+      "store_version": "1.1.1",
+      "github_download_url": "https://github.com/SirFork1988/Crimson-Glass/releases/download/v1.1.1/Crimson-Glass-SDDM-1.1.1.tar.gz",
+      "store_file_id": 1792127087
     },
     {
       "key": "plymouth",

@@ -25,4 +25,4 @@ Color schemes use directly importable .colors/.colorscheme Store downloads; comp
 
 ## SDDM compatibility patch (2026-10-16)
 
-The repaired SDDM component is version 1.1.1, published with the [GitHub patch release](https://github.com/SirFork1988/Crimson-Glass/releases/tag/v1.1.1). The existing Store login listing still offers 1.1.0 until its download is replaced. Use the GitHub SDDM archive or full 1.1.1 installer after upgrading to Plasma 6.8. Other Store components are unchanged.
+The repaired SDDM component is version 1.1.1, published with the [GitHub patch release](https://github.com/SirFork1988/Crimson-Glass/releases/tag/v1.1.1). The [Store login listing](https://www.opendesktop.org/p/2377913/) now offers 1.1.1 (file ID 1792127087); the obsolete 1.1.0 download is archived. The public Store download was retrieved and its SHA-256 matches the GitHub SDDM archive: `5fbb760337772b0d96f9481c46a5c0c353eb0567b3662333553e42ee64fa3058`. Other Store components are unchanged.
