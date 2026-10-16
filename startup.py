@@ -35,7 +35,7 @@ BACKENDS = {'limine-mkinitcpio': [], 'mkinitcpio': ['-P'],
 QML_MODULES = ('QtQuick/Controls', 'QtQuick/Layouts', 'Qt5Compat/GraphicalEffects',
                'org/kde/kirigami', 'org/kde/plasma/components',
                'org/kde/plasma/extras', 'org/kde/plasma/private/keyboardindicator',
-               'org/kde/breeze/components')
+               'org/kde/breeze/components', 'org/kde/plasma/workspace/keyboardlayout')
 PRESERVED_PATHS = ('/etc/default/grub', '/etc/default/limine', '/etc/default/limine.d',
                    '/etc/kernel/cmdline', '/etc/cmdline.d', '/boot/loader/loader.conf',
                    '/boot/loader/entries', '/boot/grub/grub.cfg')

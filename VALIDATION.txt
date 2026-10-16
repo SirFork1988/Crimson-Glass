@@ -1,3 +1,34 @@
+CRIMSON GLASS 1.1.1 — SDDM COMPATIBILITY PATCH
+
+Performed 2026-10-16 on CachyOS, Plasma 6.8.0, Qt 6.12.0, SDDM 0.21.0.
+
+Root cause: Plasma 6.8 removed org.kde.breeze.components.VirtualKeyboardLoader.
+The original greeter test reproduces Main.qml:366 "is not a type" and SDDM's
+embedded fallback. The repair uses the KWinVirtualKeyboard interface directly.
+
+PASS: 11 repository tests, including a real Qt6 SDDM test-mode load. A root
+      completion probe verifies Crimson Glass actually instantiates; keeping
+      the greeter process alive would also pass on the emergency fallback.
+PASS: installed system theme loads in test mode on the updated host.
+PASS: native SDDM archive content verified against its corresponding source.
+PASS: full installer ZIP CRC, file manifest and isolated offline dry-run.
+PASS: packaging regression preserves unrelated file bytes and icon aliases
+      while replacing the SDDM payload with the repaired source.
+PASS: Python compilation, shell syntax and git whitespace checks.
+
+Root-owned theme/configuration installation uses the existing startup backup
+and verification path. No SDDM service restart, logout, reboot, PAM login,
+boot-image rebuild, monitor or desktop-layout change was used for this patch.
+Offscreen/software rendering tests loading, not GPU visuals or authentication.
+The earlier keyboard API compatibility path and other distributions remain
+untested live. An available KWin input-method backend is needed for the on-screen
+keyboard; physical keyboard login does not depend on that backend.
+
+The following historical validation belongs to earlier releases; its unchanged
+visual-payload statement applies to 1.1.0 only. Version 1.1.1 replaces SDDM files.
+
+---
+
 CRIMSON GLASS 1.1.0 — RELEASE VALIDATION
 
 Performed 2026-10-09 on CachyOS, Plasma 6.7.5 / Wayland.

@@ -140,10 +140,10 @@
       "key": "sddm",
       "name": "Crimson Glass Login",
       "category": "SDDM Login Themes",
-      "version": "1.1.0",
-      "archive": "Crimson-Glass-SDDM-1.1.0.tar.gz",
-      "sha256": "0c7d2f4e4fc5a448e382ad00fc43d0d596489bc823555c585945b6091b40e21f",
-      "bytes": 515332,
+      "version": "1.1.1",
+      "archive": "Crimson-Glass-SDDM-1.1.1.tar.gz",
+      "sha256": "5fbb760337772b0d96f9481c46a5c0c353eb0567b3662333553e42ee64fa3058",
+      "bytes": 515629,
       "license": "LGPL-2.0-or-later AND CC0-1.0",
       "package_ids": [
         "CrimsonGlass"
@@ -156,7 +156,9 @@
         "directories": 4
       },
       "store_id": 2377913,
-      "store_url": "https://www.opendesktop.org/p/2377913/"
+      "store_url": "https://www.opendesktop.org/p/2377913/",
+      "store_version": "1.1.0",
+      "github_download_url": "https://github.com/SirFork1988/Crimson-Glass/releases/download/v1.1.1/Crimson-Glass-SDDM-1.1.1.tar.gz"
     },
     {
       "key": "plymouth",

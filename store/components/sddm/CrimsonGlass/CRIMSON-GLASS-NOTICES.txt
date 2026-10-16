@@ -1,4 +1,4 @@
-CRIMSON GLASS 1.1.0 — ASSET CREDITS AND SOURCE NOTICES
+CRIMSON GLASS 1.1.1 — ASSET CREDITS AND SOURCE NOTICES
 
 This package is an aggregate of independent theme components. Each retains
 its upstream license; the complete license notices are in licenses/ and in

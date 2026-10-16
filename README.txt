@@ -1,9 +1,9 @@
-CRIMSON GLASS 1.1.0
+CRIMSON GLASS 1.1.1
 Black, ruby red, glass and smooth motion for KDE Plasma 6
 
 QUICK INSTALL
-  1. Extract Crimson-Glass-1.1.0.zip.
-  2. Open a terminal inside the extracted Crimson-Glass-1.1.0 folder.
+  1. Extract Crimson-Glass-1.1.1.zip.
+  2. Open a terminal inside the extracted Crimson-Glass-1.1.1 folder.
   3. Run as your NORMAL desktop user:
        sh ./install.sh --all
   4. Log out and back in. Login and boot themes appear on the next login/boot.
@@ -147,7 +147,7 @@ VERIFICATION
   The installer checks manifest.json's SHA-256 hashes before dependency or
   desktop changes. The separate ZIP .sha256 file checks the download itself. From the
   download directory:
-    sha256sum -c Crimson-Glass-1.1.0.zip.sha256
+    sha256sum -c Crimson-Glass-1.1.1.zip.sha256
   The hashes detect damage; they are not a publisher signature.
 
   Release testing: isolated home install, second install, restores, config
@@ -160,3 +160,10 @@ NEW IN 1.1.0
 Screen-aware widget realignment and game opacity exemptions. See README.md for
 behavior, opt-out flags, manual game classification, and restore instructions.
 Python D-Bus and GObject bindings are now native prerequisites.
+
+NEW IN 1.1.1 — PLASMA 6.8 LOGIN REPAIR
+  Replaces the removed Breeze VirtualKeyboardLoader with KWin keyboard
+  integration. Tested loading on Plasma 6.8.0 / Qt 6.12.0 / SDDM 0.21.0.
+  To repair login only from the extracted release directory:
+    sudo python3 startup.py install --assets ./store/components --sddm
+  An existing theme/config backup is created. No reboot or SDDM restart.

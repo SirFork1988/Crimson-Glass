@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Crimson Glass 1.1.0: backed-up, portable KDE Plasma 6 theme installer."""
+"""Crimson Glass 1.1.1: backed-up, portable KDE Plasma 6 theme installer."""
 # SPDX-License-Identifier: MIT
 from __future__ import annotations
 import argparse, datetime, hashlib, json, os, re, shlex, shutil, subprocess, sys
@@ -11,7 +11,7 @@ if sys.version_info < (3,10):
     raise SystemExit('Crimson Glass requires Python 3.10 or newer.')
 
 BASE=Path(__file__).resolve().parent
-VERSION='1.1.0'
+VERSION='1.1.1'
 
 def digest(path):
     h=hashlib.sha256()

@@ -22,3 +22,7 @@ The public global-theme download was retrieved through the website and its SHA-2
 Validation: component archives and icon aliases verified against extracted source. Native global KPackage install/show/remove passed in an isolated HOME; final source metadata passes KPackage AppStream generation and matches the final archive. No live theme was changed. End-to-end online KNS dependency installation has not been verified: the Store front end currently blocks some automated connections.
 
 Color schemes use directly importable .colors/.colorscheme Store downloads; complete credited source and supplementary files remain in the repository. Full automatic widget realignment and game-opacity helpers are in the separate GitHub installer.
+
+## SDDM compatibility patch (2026-10-16)
+
+The repaired SDDM component is version 1.1.1, published with the [GitHub patch release](https://github.com/SirFork1988/Crimson-Glass/releases/tag/v1.1.1). The existing Store login listing still offers 1.1.0 until its download is replaced. Use the GitHub SDDM archive or full 1.1.1 installer after upgrading to Plasma 6.8. Other Store components are unchanged.

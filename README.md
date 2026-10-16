@@ -10,11 +10,11 @@ A black and ruby-red glass theme for **KDE Plasma 6**: translucent windows, smoo
 
 **[Download the complete installer ZIP](https://github.com/SirFork1988/Crimson-Glass/releases/latest)**
 
-The release ZIP contains all theme assets, source artwork, licenses, and installation files. Download `Crimson-Glass-1.1.0.zip` from the release assets. GitHub’s automatic **Source code** archives contain this repository’s reference code and documentation, without the theme asset bundle.
+The release ZIP contains all theme assets, source artwork, licenses, and installation files. Download `Crimson-Glass-1.1.1.zip` from the release assets. GitHub’s automatic **Source code** archives contain this repository’s reference code and documentation, without the theme asset bundle.
 
 ## Install
 
-Extract the installer ZIP, open a terminal inside its `Crimson-Glass-1.1.0` folder, and run as your **normal desktop user**:
+Extract the installer ZIP, open a terminal inside its `Crimson-Glass-1.1.1` folder, and run as your **normal desktop user**:
 
 ```sh
 sh ./install.sh --all
@@ -39,6 +39,18 @@ To check the plan before making changes:
 ```sh
 sh ./install.sh --all --dry-run
 ```
+
+## Repair login after upgrading to Plasma 6.8 (1.1.1)
+
+Plasma 6.8 removed Breeze's `VirtualKeyboardLoader`, causing the old login theme to fall back to SDDM's emergency screen. Version 1.1.1 uses the current KWin keyboard interface and was load-tested on Plasma 6.8.0 / Qt 6.12.0 / SDDM 0.21.0. Compatibility code for the earlier keyboard API remains; older Plasma versions have not been live-tested with this patch.
+
+To repair **only login**, extract the 1.1.1 full ZIP, enter its folder and run:
+
+```sh
+sudo python3 startup.py install --assets ./store/components --sddm
+```
+
+This backs up the existing login theme/configuration, installs the repair, and selects Crimson Glass. It does not restart SDDM, reboot, or reapply the desktop. The repaired theme appears at the next login. Alternatively install `Crimson-Glass-SDDM-1.1.1.tar.gz` through System Settings → Login Screen (SDDM). The on-screen keyboard requires a KWin input-method backend; physical keyboard login is independent of it.
 
 ## Screen changes and game transparency (1.1.0)
 
@@ -95,7 +107,7 @@ Backups live under `~/.local/state/crimson-glass/backups/` (respecting `XDG_STAT
 Download the release’s ZIP and `.sha256` file into the same directory, then run:
 
 ```sh
-sha256sum -c Crimson-Glass-1.1.0.zip.sha256
+sha256sum -c Crimson-Glass-1.1.1.zip.sha256
 ```
 
 The installer also verifies the package’s internal file manifest. Checksums detect corruption; they are not a publisher signature.

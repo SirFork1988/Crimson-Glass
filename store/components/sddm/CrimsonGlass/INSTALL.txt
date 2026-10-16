@@ -1,7 +1,13 @@
-Crimson Glass Login 1.1.0
+Crimson Glass Login 1.1.1
 
 Requires SDDM with Qt 6, Plasma 6 Breeze components, Kirigami, Plasma Components, and Qt5Compat GraphicalEffects. Install via System Settings > Login Screen (SDDM) > Install from File, then select Crimson Glass. Administrator authentication is required. This archive never changes the display manager automatically.
 
 Project: https://github.com/SirFork1988/Crimson-Glass
-Full installer and optional runtime: https://github.com/SirFork1988/Crimson-Glass/releases/tag/v1.1.0
+Full installer and optional runtime: https://github.com/SirFork1988/Crimson-Glass/releases/tag/v1.1.1
 This native component contains no automatic installer or post-install hooks.
+
+1.1.1 fixes loading on Plasma 6.8 / Qt 6.12. Requires the Plasma keyboardlayout
+QML module (normally supplied by plasma-workspace). The on-screen keyboard
+button is shown only when KWin reports an available input-method backend.
+Physical keyboard login does not require an on-screen keyboard provider.
+Earlier Plasma compatibility code is retained but not live-tested for this release.
